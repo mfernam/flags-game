@@ -1,0 +1,12 @@
+﻿<ResourceDictionary  xmlns:wpf="http://schemas.microsoft.com/netfx/2009/xaml/presentation" 
+                         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        xmlns:local="clr-namespace:FlagsGame.Resources" 
+                         xmlns:system="clr-namespace:System;assembly=System.Runtime">
+
+    <system:String x:Key="play">Jugar</system:String>
+    <system:String x:Key="settings">Ajustes</system:String>
+    <system:String x:Key="scores">Resultados</system:String>
+    <system:String x:Key="avout">Acerca de</system:String>
+    <system:String x:Key="fun_with_flags">Diversión con banderas</system:String>
+</ResourceDictionary>

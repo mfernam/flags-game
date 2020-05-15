@@ -1,0 +1,27 @@
+﻿<Window x:Class="FlagsGame.Views.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlagsGame.Views"
+        mc:Ignorable="d"
+        Title="Settings" Height="450" Width="800">
+    <Grid>
+        <RadioButton Content="Flags" HorizontalAlignment="Left" Height="15" Margin="173,102,0,0" VerticalAlignment="Top" Width="110" GroupName="modeGame"/>
+        <RadioButton Content="Countries" HorizontalAlignment="Left" Height="21" Margin="173,122,0,0" VerticalAlignment="Top" Width="95" GroupName="modeGame" RenderTransformOrigin="0.5,0.5">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="3.769"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.692"/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <Button Content="Reset scores" HorizontalAlignment="Left" Height="41" Margin="439,114,0,0" VerticalAlignment="Top" Width="167"/>
+        <ComboBox HorizontalAlignment="Left" Height="27" Margin="158,236,0,0" VerticalAlignment="Top" Width="153"/>
+        <Label Content="Settings" HorizontalAlignment="Left" Height="41" Margin="55,10,0,0" VerticalAlignment="Top" Width="165" FontSize="20" FontFamily="MV Boli"/>
+        <Label Content="Mode game" HorizontalAlignment="Left" Height="39" Margin="138,56,0,0" VerticalAlignment="Top" Width="130" FontSize="14"/>
+        <Label Content="Select language" HorizontalAlignment="Left" Height="40" Margin="138,196,0,0" VerticalAlignment="Top" Width="96"/>
+    </Grid>
+</Window>
