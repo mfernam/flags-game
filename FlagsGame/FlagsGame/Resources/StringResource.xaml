@@ -1,12 +1,17 @@
 ﻿<wpf:ResourceDictionary  xmlns:wpf="http://schemas.microsoft.com/netfx/2009/xaml/presentation" 
                          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                        xmlns:local="clr-namespace:FlagsGame.Resources" 
+                        xmlns:local="clr-namespace:FlagsGame.GUI.View" 
                          xmlns:system="clr-namespace:System;assembly=System.Runtime">
 
     <system:String x:Key="play">Play</system:String>
     <system:String x:Key="settings">Settings</system:String>
     <system:String x:Key="scores">Scores</system:String>
     <system:String x:Key="about">About</system:String>
-    <system:String x:Key="fun_with_flags">Fun with flags</system:String> 
+    <system:String x:Key="fun_with_flags">Fun with flags</system:String>
+    <system:String x:Key="flags">Flags</system:String>
+    <system:String x:Key="countries">Countries</system:String>
+    <system:String x:Key="select_language">Select language</system:String>
+    <system:String x:Key="reset_scores">Reset scores</system:String>
+    <system:String x:Key="mode_game">Mode game</system:String>
 </wpf:ResourceDictionary>

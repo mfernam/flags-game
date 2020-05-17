@@ -1,17 +1,18 @@
 ﻿using System;
-using Xamarin.Forms;
 
-namespace Core
+
+namespace FlagsGame.Core
 {
     public class Session
     {
-        string language;
-        ResourceDictionary dict;
+        private string _language = string.Empty;
+        private ModeGame _mode = ModeGame.COUNTRIES;
+
         Session()
         {
-            this.dict = new ResourceDictionary();
         }
 
-        public string Language { get => language; set => language = value; }
+        public string Language { get => _language; set => _language = value; }
+        public ModeGame Mode { get => _mode; set => _mode = value; }
     }
 }

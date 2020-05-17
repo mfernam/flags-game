@@ -8,8 +8,4 @@
     <Folder Include="Model\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.726" />
-  </ItemGroup>
-
 </Project>

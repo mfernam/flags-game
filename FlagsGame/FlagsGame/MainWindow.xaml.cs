@@ -1,33 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using FlagsGame.Core;
 
-namespace FlagsGame
+namespace FlagsGame.GUI.View
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Session _session = null;
+        private OptionsView _optionsView = null;
+
         public MainWindow()
         {
             InitializeComponent();
         }
-
-        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        public MainWindow(Session session)
         {
-            
+            this._session = session;
+            InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            _optionsView = new OptionsView();
+            _contentControl.Children.Add(_optionsView);
         }
     }
 }
