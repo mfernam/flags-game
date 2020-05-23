@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\FlagsGame.Core.csproj" />
+    <ProjectReference Include="..\FlagsGame.GUI.Controller\FlagsGame.GUI.Controller.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>

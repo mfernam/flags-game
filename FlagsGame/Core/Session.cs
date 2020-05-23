@@ -1,18 +1,33 @@
 ﻿using System;
-
+using System.Globalization;
+using System.Net;
 
 namespace FlagsGame.Core
 {
     public class Session
     {
-        private string _language = string.Empty;
-        private ModeGame _mode = ModeGame.COUNTRIES;
+        private CultureInfo _language = new CultureInfo("es-ES");
 
-        Session()
+        private static readonly Session _instance = new Session();
+
+        static Session(){}
+
+        private Session() { }
+
+        public static Session Instance
         {
+            get => _instance;
         }
 
-        public string Language { get => _language; set => _language = value; }
-        public ModeGame Mode { get => _mode; set => _mode = value; }
+        public CultureInfo Language {
+            get {
+                return _language; 
+            }
+            set
+            {
+                _language = value;
+            }
+    }
+        public ModeGame Mode { get; set; } = ModeGame.COUNTRIES;
     }
 }

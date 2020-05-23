@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FlagsGame.GUI.Controller/1.0.0": {
+        "runtime": {
+          "FlagsGame.GUI.Controller.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlagsGame.GUI.Controller/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

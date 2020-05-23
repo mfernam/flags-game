@@ -1,11 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+using System.ComponentModel;
 
 namespace FlagsGame.Core
 {
     public enum ModeGame
     {
-        COUNTRIES, FLAGS
+        [Description("Countries")]
+        COUNTRIES,
+        [Description("Flags")] 
+        FLAGS
     }
 }
