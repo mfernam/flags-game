@@ -10,13 +10,13 @@ namespace FlagsGame.GUI.View
     /// </summary>
     public partial class OptionsView : UserControl
     {
-        private Session _session = null;
+        Session _session = null;
         GameView _gameView = null;
         SettingsView _settingsView = null;
         AboutView _aboutView = null;
         ResultsView _resultsView = null;
 
-        public event ShowOptionDelegate _showOption;
+        public event ShowOptionDelegate showOption;
         public OptionsView(Session session)
         {
             this._session = session;
@@ -29,24 +29,25 @@ namespace FlagsGame.GUI.View
 
         public delegate void ShowOptionDelegate(UserControl controlView);
 
+
         private void btnSettings_Click(object sender, RoutedEventArgs e)
         {            
-            _showOption(_settingsView);
+            showOption(_settingsView);
         }
 
         private void btnPlay_Click(object sender, RoutedEventArgs e)
         {
-            _showOption(_gameView);
+            showOption(_gameView);
         }
 
         private void btnHelp_Click(object sender, RoutedEventArgs e)
         {
-            _showOption(_aboutView);
+            showOption(_aboutView);
         }
 
         private void btnScores_Click(object sender, RoutedEventArgs e)
         {
-            _showOption(_resultsView);
+            showOption(_resultsView);
         }
     }
 }

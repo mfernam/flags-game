@@ -1,5 +1,6 @@
 ﻿using FlagsGame.Core;
 using System.Globalization;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace FlagsGame.GUI.View.Views
@@ -10,21 +11,20 @@ namespace FlagsGame.GUI.View.Views
     public partial class SettingsView : UserControl
     {
         Session _session = null;
-        public event ShowControl _showOption;
-        OptionsView _optionsView = null;
+
+        public event CloseControlDelegate closeControl;
         public SettingsView(Session session)
         {
             _session = session;
             InitializeComponent();
         }
 
-        public delegate void ShowControl(UserControl controlView);
+        public delegate void CloseControlDelegate(UserControl viewControl);
 
-        private void btnAccept_Click(object sender, System.Windows.RoutedEventArgs e)
+        private void btnAccept_Click(object sender, RoutedEventArgs e)
         {
             saveChanges();
-            _optionsView = new OptionsView(_session);
-            _showOption(_optionsView);
+            closeControl(new OptionsView(_session));
         }
 
         private void saveChanges()
