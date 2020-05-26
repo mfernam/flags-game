@@ -1,0 +1,248 @@
+﻿[
+  {
+    "ImagePath": "Resources/Images/ai.png",
+    "Country": "Anguilla",
+    "population": 14869,
+    "area": 91
+  },
+  {
+    "ImagePath": "Resources/Images/ag.png",
+    "Country": "Antigua and Barbuda",
+    "population": 96453,
+    "area": 442
+  },
+  {
+    "ImagePath": "Resources/Images/aw.png",
+    "Country": "Aruba",
+    "population": 112309,
+    "area": 180
+  },
+  {
+    "ImagePath": "Resources/Images/bs.png",
+    "Country": "Bahamas",
+    "population": 385340,
+    "area": 13943
+  },
+  {
+    "ImagePath": "Resources/Images/bb.png",
+    "Country": "Barbados",
+    "population": 287025,
+    "area": 430
+  },
+  {
+    "ImagePath": "Resources/Images/bz.png",
+    "Country": "Belize",
+    "population": 408487,
+    "area": 22966
+  },
+  {
+    "ImagePath": "Resources/Images/bm.png",
+    "Country": "Bermuda",
+    "population": 64027,
+    "area": 54
+  },
+  {
+    "ImagePath": "Resources/Images/ca.png",
+    "Country": "Canada",
+    "population": 37935814,
+    "area": 9984670
+  },
+  {
+    "ImagePath": "Resources/Images/bq.png",
+    "Country": "Caribbean Netherlands",
+    "population": 25157,
+    "area": 328
+  },
+  {
+    "ImagePath": "Resources/Images/ky.png",
+    "Country": "Cayman Islands",
+    "population": 65813,
+    "area": 264
+  },
+  {
+    "ImagePath": "Resources/Images/cr.png",
+    "Country": "Costa Rica",
+    "population": 5058007,
+    "area": 51100
+  },
+  {
+    "ImagePath": "Resources/Images/cu.png",
+    "Country": "Cuba",
+    "population": 11209628,
+    "area": 109884
+  },
+  {
+    "ImagePath": "Resources/Images/cw.png",
+    "Country": "Curaçao",
+    "population": 158665,
+    "area": 444
+  },
+  {
+    "ImagePath": "Resources/Images/dm.png",
+    "Country": "Dominica",
+    "population": 71808,
+    "area": 751
+  },
+  {
+    "ImagePath": "Resources/Images/do.png",
+    "Country": "Dominican Republic",
+    "population": 10358320,
+    "area": 48671
+  },
+  {
+    "ImagePath": "Resources/Images/sv.png",
+    "Country": "El Salvador",
+    "population": 6704864,
+    "area": 21041
+  },
+  {
+    "ImagePath": "Resources/Images/gl.png",
+    "Country": "Greenland",
+    "population": 56081,
+    "area": 2166090
+  },
+  {
+    "ImagePath": "Resources/Images/gd.png",
+    "Country": "Grenada",
+    "population": 112003,
+    "area": 344
+  },
+  {
+    "ImagePath": "Resources/Images/gp.png",
+    "Country": "Guadeloupe",
+    "population": 395700,
+    "area": 1628
+  },
+  {
+    "ImagePath": "Resources/Images/gt.png",
+    "Country": "Guatemala",
+    "population": 16604026,
+    "area": 108889
+  },
+  {
+    "ImagePath": "Resources/Images/ht.png",
+    "Country": "Haiti",
+    "population": 11577779,
+    "area": 27750
+  },
+  {
+    "ImagePath": "Resources/Images/hn.png",
+    "Country": "Honduras",
+    "population": 9158345,
+    "area": 112492
+  },
+  {
+    "ImagePath": "Resources/Images/jm.png",
+    "Country": "Jamaica",
+    "population": 2726667,
+    "area": 10991
+  },
+  {
+    "ImagePath": "Resources/Images/mq.png",
+    "Country": "Martinique",
+    "population": 376480,
+    "area": 1128
+  },
+  {
+    "ImagePath": "Resources/Images/mx.png",
+    "Country": "Mexico",
+    "population": 126577691,
+    "area": 1964380
+  },
+  {
+    "ImagePath": "Resources/Images/ms.png",
+    "Country": "Montserrat",
+    "population": 4989,
+    "area": 102
+  },
+  {
+    "ImagePath": "Resources/Images/ni.png",
+    "Country": "Nicaragua",
+    "population": 6460411,
+    "area": 130373
+  },
+  {
+    "ImagePath": "Resources/Images/pa.png",
+    "Country": "Panama",
+    "population": 4218808,
+    "area": 75417
+  },
+  {
+    "ImagePath": "Resources/Images/pr.png",
+    "Country": "Puerto Rico",
+    "population": 3193694,
+    "area": 8870
+  },
+  {
+    "ImagePath": "Resources/Images/bl.png",
+    "Country": "Saint Barthélemy",
+    "population": 9793,
+    "area": 21
+  },
+  {
+    "ImagePath": "Resources/Images/kn.png",
+    "Country": "Saint Kitts and Nevis",
+    "population": 52823,
+    "area": 261
+  },
+  {
+    "ImagePath": "Resources/Images/lc.png",
+    "Country": "Saint Lucia",
+    "population": 178696,
+    "area": 616
+  },
+  {
+    "ImagePath": "Resources/Images/mf.png",
+    "Country": "Saint Martin",
+    "population": 35107,
+    "area": 53
+  },
+  {
+    "ImagePath": "Resources/Images/pm.png",
+    "Country": "Saint Pierre and Miquelon",
+    "population": 6008,
+    "area": 242
+  },
+  {
+    "ImagePath": "Resources/Images/vc.png",
+    "Country": "Saint Vincent and the Grenadines",
+    "population": 110608,
+    "area": 389
+  },
+  {
+    "ImagePath": "Resources/Images/sx.png",
+    "Country": "Sint Maarten",
+    "population": 40614,
+    "area": 34
+  },
+  {
+    "ImagePath": "Resources/Images/tc.png",
+    "Country": "Turks and Caicos Islands",
+    "population": 41369,
+    "area": 948
+  },
+  {
+    "ImagePath": "Resources/Images/us.png",
+    "Country": "United States",
+    "population": 329345637,
+    "area": 9833520
+  },
+  {
+    "ImagePath": "Resources/Images/um.png",
+    "Country": "United States Minor Outlying Islands",
+    "population": 300,
+    "area": 34
+  },
+  {
+    "ImagePath": "Resources/Images/vg.png",
+    "Country": "British Virgin Islands",
+    "population": 30030,
+    "area": 151
+  },
+  {
+    "ImagePath": "Resources/Images/vi.png",
+    "Country": "United States Virgin Islands",
+    "population": 104578,
+    "area": 347
+  }
+]

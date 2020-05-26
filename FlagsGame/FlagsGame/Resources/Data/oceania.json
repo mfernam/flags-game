@@ -1,0 +1,170 @@
+﻿[
+  {
+    "ImagePath": "Resources/Images/as.png",
+    "Country": "AmericanSamoa",
+    "population": 56700,
+    "area": 199
+  },
+  {
+    "ImagePath": "Resources/Images/au.png",
+    "Country": "Australia",
+    "population": 25627280,
+    "area": 7692020
+  },
+  {
+    "ImagePath": "Resources/Images/cx.png",
+    "Country": "Christmas Island",
+    "population": 1928,
+    "area": 135
+  },
+  {
+    "ImagePath": "Resources/Images/cc.png",
+    "Country": "Cocos Islands",
+    "population": 538,
+    "area": 14
+  },
+  {
+    "ImagePath": "Resources/Images/ck.png",
+    "Country": "CookIslands",
+    "population": 15200,
+    "area": 236
+  },
+  {
+    "ImagePath": "Resources/Images/fj.png",
+    "Country": "Fiji",
+    "population": 884887,
+    "area": 18272
+  },
+  {
+    "ImagePath": "Resources/Images/pf.png",
+    "Country": "French Polynesia",
+    "population": 275918,
+    "area": 4167
+  },
+  {
+    "ImagePath": "Resources/Images/gu.png",
+    "Country": "Guam",
+    "population": 172400,
+    "area": 549
+  },
+  {
+    "ImagePath": "Resources/Images/id.png",
+    "Country": "Indonesia",
+    "population": 266911900,
+    "area": 1910930
+  },
+  {
+    "ImagePath": "Resources/Images/ki.png",
+    "Country": "Kiribati",
+    "population": 120100,
+    "area": 811
+  },
+  {
+    "ImagePath": "Resources/Images/mh.png",
+    "Country": "Marshall Islands",
+    "population": 55500,
+    "area": 181
+  },
+  {
+    "ImagePath": "Resources/Images/fm.png",
+    "Country": "Micronesia",
+    "population": 104468,
+    "area": 702
+  },
+  {
+    "ImagePath": "Resources/Images/nr.png",
+    "Country": "Nauru",
+    "population": 11000,
+    "area": 21
+  },
+  {
+    "ImagePath": "Resources/Images/nc.png",
+    "Country": "New Caledonia",
+    "population": 282200,
+    "area": 18575
+  },
+  {
+    "ImagePath": "Resources/Images/nz.png",
+    "Country": "New Zealand",
+    "population": 4961213,
+    "area": 270467
+  },
+  {
+    "ImagePath": "Resources/Images/nu.png",
+    "Country": "Niue",
+    "population": 1520,
+    "area": 260
+  },
+  {
+    "ImagePath": "Resources/Images/nf.png",
+    "Country": "NorfolkIsland",
+    "population": 1756,
+    "area": 36
+  },
+  {
+    "ImagePath": "Resources/Images/mp.png",
+    "Country": "Northern Mariana Islands",
+    "population": 56200,
+    "area": 464
+  },
+  {
+    "ImagePath": "Resources/Images/pw.png",
+    "Country": "Palau",
+    "population": 17900,
+    "area": 459
+  },
+  {
+    "ImagePath": "Resources/Images/pg.png",
+    "Country": "Papua New Guinea",
+    "population": 8935000,
+    "area": 462840
+  },
+  {
+    "ImagePath": "Resources/Images/pn.png",
+    "Country": "PitcairnIslands",
+    "population": 50,
+    "area": 47
+  },
+  {
+    "ImagePath": "Resources/Images/ws.png",
+    "Country": "Samoa",
+    "population": 200874,
+    "area": 2842
+  },
+  {
+    "ImagePath": "Resources/Images/sb.png",
+    "Country": "Solomon Islands",
+    "population": 680806,
+    "area": 28896
+  },
+  {
+    "ImagePath": "Resources/Images/tk.png",
+    "Country": "Tokelau",
+    "population": 1400,
+    "area": 12
+  },
+  {
+    "ImagePath": "Resources/Images/to.png",
+    "Country": "Tonga",
+    "population": 100651,
+    "area": 747
+  },
+  {
+    "ImagePath": "Resources/Images/tv.png",
+    "Country": "Tuvalu",
+    "population": 10200,
+    "area": 26
+  },
+  {
+    "ImagePath": "Resources/Images/vu.png",
+    "Country": "Vanuatu",
+    "population": 304500,
+    "area": 12189
+  },
+  {
+    "ImagePath": "Resources/Images/wf.png",
+    "Country": "Wallis and Futuna",
+    "population": 11700,
+    "area": 142
+  }
+]

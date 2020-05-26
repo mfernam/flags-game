@@ -18,4 +18,12 @@
     <system:String x:Key="spanish">Spanish</system:String>
     <system:String x:Key="correct">Correct</system:String>
     <system:String x:Key="wrong">Wrong</system:String>
+    <system:String x:Key="continent">Continent</system:String>
+    <system:String x:Key="africa">Africa</system:String>
+    <system:String x:Key="asia">Asia</system:String>
+    <system:String x:Key="europe">Europe</system:String>
+    <system:String x:Key="north_america">North America</system:String>
+    <system:String x:Key="south_america">South America</system:String>
+    <system:String x:Key="oceania">Oceania</system:String>
+    <system:String x:Key="all">All</system:String>
 </wpf:ResourceDictionary>

@@ -1,0 +1,356 @@
+﻿[
+  {
+    "CodCountry": "ad.png",
+    "Name": "Algeria",
+    "Population": 43000000,
+    "Area": 2381740
+  },
+  {
+    "CodCountry": "ao.png",
+    "Name": "Angola",
+    "Population": 31127674,
+    "Area": 1246700
+  },
+  {
+    "CodCountry": "bj.png",
+    "Name": "Benin",
+    "Population": 11733059,
+    "Area": 114763
+  },
+  {
+    "CodCountry": "bw.png",
+    "Name": "Botswana",
+    "Population": 2338851,
+    "Area": 581730
+  },
+  {
+    "CodCountry": "io.png",
+    "Name": "British Indian Ocean Territory",
+    "Population": 0,
+    "Area": 60
+  },
+  {
+    "CodCountry": "bf.png",
+    "Name": "BurkinaFaso",
+    "Population": 20870060,
+    "Area": 274222
+  },
+  {
+    "CodCountry": "bi.png",
+    "Name": "Burundi",
+    "Population": 10953317,
+    "Area": 27834
+  },
+  {
+    "CodCountry": "cm.png",
+    "Name": "Cameroon",
+    "Population": 25876000,
+    "Area": 475442
+  },
+  {
+    "CodCountry": "cv.png",
+    "Name": "CapeVerde",
+    "Population": 550483,
+    "Area": 4033
+  },
+  {
+    "CodCountry": "cf.png",
+    "Name": "Central African Republic",
+    "Population": 5496011,
+    "Area": 622984
+  },
+  {
+    "CodCountry": "td.png",
+    "Name": "Chad",
+    "Population": 15692969,
+    "Area": 1284000
+  },
+  {
+    "CodCountry": "km.png",
+    "Name": "Comoros",
+    "Population": 873724,
+    "Area": 1862
+  },
+  {
+    "CodCountry": "cg.png",
+    "Name": "Republic of the Congo",
+    "Population": 5380508,
+    "Area": 342000
+  },
+  {
+    "CodCountry": "cd.png",
+    "Name": "DRCongo",
+    "Population": 86790567,
+    "Area": 2344860
+  },
+  {
+    "CodCountry": "ci.png",
+    "Name": "Côted'Ivoire",
+    "Population": 25823071,
+    "Area": 322463
+  },
+  {
+    "CodCountry": "dj.png",
+    "Name": "Djibouti",
+    "Population": 1078373,
+    "Area": 23200
+  },
+  {
+    "CodCountry": "eg.png",
+    "Name": "Egypt",
+    "Population": 100052943,
+    "Area": 1002450
+  },
+  {
+    "CodCountry": "gq.png",
+    "Name": "EquatorialGuinea",
+    "Population": 1358276,
+    "Area": 28051
+  },
+  {
+    "CodCountry": "er.png",
+    "Name": "Eritrea",
+    "Population": 3497117,
+    "Area": 117600
+  },
+  {
+    "CodCountry": "sz.png",
+    "Name": "Eswatini",
+    "Population": 1093238,
+    "Area": 17364
+  },
+  {
+    "CodCountry": "et.png",
+    "Name": "Ethiopia",
+    "Population": 98665000,
+    "Area": 1104300
+  },
+  {
+    "CodCountry": "ga.png",
+    "Name": "Gabon",
+    "Population": 2172579,
+    "Area": 267668
+  },
+  {
+    "CodCountry": "gm.png",
+    "Name": "Gambia",
+    "Population": 2347706,
+    "Area": 11295
+  },
+  {
+    "CodCountry": "gh.png",
+    "Name": "Ghana",
+    "Population": 30280811,
+    "Area": 238533
+  },
+  {
+    "CodCountry": "gn.png",
+    "Name": "Guinea",
+    "Population": 12218357,
+    "Area": 245857
+  },
+  {
+    "CodCountry": "gw.png",
+    "Name": "Guinea-Bissau",
+    "Population": 1604528,
+    "Area": 36125
+  },
+  {
+    "CodCountry": "ke.png",
+    "Name": "Kenya",
+    "Population": 47564296,
+    "Area": 580367
+  },
+  {
+    "CodCountry": "ls.png",
+    "Name": "Lesotho",
+    "Population": 2007201,
+    "Area": 30355
+  },
+  {
+    "CodCountry": "lr.png",
+    "Name": "Liberia",
+    "Population": 4475353,
+    "Area": 111369
+  },
+  {
+    "CodCountry": "ly.png",
+    "Name": "Libya",
+    "Population": 6777452,
+    "Area": 1759540
+  },
+  {
+    "CodCountry": "mg.png",
+    "Name": "Madagascar",
+    "Population": 25680342,
+    "Area": 587041
+  },
+  {
+    "CodCountry": "mw.png",
+    "Name": "Malawi",
+    "Population": 17563749,
+    "Area": 118484
+  },
+  {
+    "CodCountry": "ml.png",
+    "Name": "Mali",
+    "Population": 19973000,
+    "Area": 1240190
+  },
+  {
+    "CodCountry": "mr.png",
+    "Name": "Mauritania",
+    "Population": 4077347,
+    "Area": 1030700
+  },
+  {
+    "CodCountry": "mu.png",
+    "Name": "Mauritius",
+    "Population": 1265985,
+    "Area": 2040
+  },
+  {
+    "CodCountry": "yt.png",
+    "Name": "Mayotte",
+    "Population": 279471,
+    "Area": 374
+  },
+  {
+    "CodCountry": "ma.png",
+    "Name": "Morocco",
+    "Population": 35821024,
+    "Area": 446550
+  },
+  {
+    "CodCountry": "mz.png",
+    "Name": "Mozambique",
+    "Population": 28571310,
+    "Area": 801590
+  },
+  {
+    "CodCountry": "na.png",
+    "Name": "Namibia",
+    "Population": 2458936,
+    "Area": 825615
+  },
+  {
+    "CodCountry": "ne.png",
+    "Name": "Niger",
+    "Population": 22314743,
+    "Area": 1267000
+  },
+  {
+    "CodCountry": "ng.png",
+    "Name": "Nigeria",
+    "Population": 200963599,
+    "Area": 923768
+  },
+  {
+    "CodCountry": "re.png",
+    "Name": "Réunion",
+    "Population": 859959,
+    "Area": 2511
+  },
+  {
+    "CodCountry": "rw.png",
+    "Name": "Rwanda",
+    "Population": 12374397,
+    "Area": 26338
+  },
+  {
+    "CodCountry": "sh.png",
+    "Name": "Saint Helena, Ascension and Tristan da Cunha",
+    "Population": 5633,
+    "Area": 394
+  },
+  {
+    "CodCountry": "st.png",
+    "Name": "São Tomé and Príncipe",
+    "Population": 201784,
+    "Area": 964
+  },
+  {
+    "CodCountry": "sn.png",
+    "Name": "Senegal",
+    "Population": 16209125,
+    "Area": 196722
+  },
+  {
+    "CodCountry": "sc.png",
+    "Name": "Seychelles",
+    "Population": 97625,
+    "Area": 452
+  },
+  {
+    "CodCountry": "sl.png",
+    "Name": "Sierra Leone",
+    "Population": 7901454,
+    "Area": 71740
+  },
+  {
+    "CodCountry": "so.png",
+    "Name": "Somalia",
+    "Population": 15442905,
+    "Area": 637657
+  },
+  {
+    "CodCountry": "za.png",
+    "Name": "South Africa",
+    "Population": 58775022,
+    "Area": 1221040
+  },
+  {
+    "CodCountry": "ss.png",
+    "Name": "South Sudan",
+    "Population": 12778250,
+    "Area": 644329
+  },
+  {
+    "CodCountry": "sd.png",
+    "Name": "Sudan",
+    "Population": 42295645,
+    "Area": 1861480
+  },
+  {
+    "CodCountry": "tz.png",
+    "Name": "Tanzania",
+    "Population": 55890747,
+    "Area": 945087
+  },
+  {
+    "CodCountry": "tg.png",
+    "Name": "Togo",
+    "Population": 7538000,
+    "Area": 56785
+  },
+  {
+    "CodCountry": "tn.png",
+    "Name": "Tunisia",
+    "Population": 11722038,
+    "Area": 163610
+  },
+  {
+    "CodCountry": "ug.png",
+    "Name": "Uganda",
+    "Population": 40299300,
+    "Area": 241550
+  },
+  {
+    "CodCountry": "eh.png",
+    "Name": "Western Sahara",
+    "Population": 582463,
+    "Area": 266000
+  },
+  {
+    "CodCountry": "zm.png",
+    "Name": "Zambia",
+    "Population": 17381168,
+    "Area": 752612
+  },
+  {
+    "CodCountry": "zw.png",
+    "Name": "Zimbabwe",
+    "Population": 15159624,
+    "Area": 390757
+  }
+]

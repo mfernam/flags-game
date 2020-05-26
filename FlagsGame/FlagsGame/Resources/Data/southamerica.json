@@ -1,0 +1,92 @@
+﻿[
+  {
+    "ImagePath": "Resources/Images/ar.png",
+    "Country": "Argentina",
+    "population": 44938712,
+    "area": 2780400
+  },
+  {
+    "ImagePath": "Resources/Images/bo.png",
+    "Country": "Bolivia",
+    "population": 11469896,
+    "area": 1098580
+  },
+  {
+    "ImagePath": "Resources/Images/br.png",
+    "Country": "Brazil",
+    "population": 211173432,
+    "area": 8515770
+  },
+  {
+    "ImagePath": "Resources/Images/cl.png",
+    "Country": "Chile",
+    "population": 19107216,
+    "area": 756102
+  },
+  {
+    "ImagePath": "Resources/Images/co.png",
+    "Country": "Colombia",
+    "population": 49395678,
+    "area": 1141750
+  },
+  {
+    "ImagePath": "Resources/Images/ec.png",
+    "Country": "Ecuador",
+    "population": 17431712,
+    "area": 276841
+  },
+  {
+    "ImagePath": "Resources/Images/fk.png",
+    "Country": "Falkland Islands",
+    "population": 3198,
+    "area": 12173
+  },
+  {
+    "ImagePath": "Resources/Images/gf.png",
+    "Country": "French Guiana",
+    "population": 290691,
+    "area": 83534
+  },
+  {
+    "ImagePath": "Resources/Images/gy.png",
+    "Country": "Guyana",
+    "population": 782766,
+    "area": 214969
+  },
+  {
+    "ImagePath": "Resources/Images/py.png",
+    "Country": "Paraguay",
+    "population": 7152703,
+    "area": 406752
+  },
+  {
+    "ImagePath": "Resources/Images/pe.png",
+    "Country": "Peru",
+    "population": 32131400,
+    "area": 1285220
+  },
+  {
+    "ImagePath": "Resources/Images/sr.png",
+    "Country": "Suriname",
+    "population": 581372,
+    "area": 163820
+  },
+  {
+    "ImagePath": "Resources/Images/tt.png",
+    "Country": "Trinidad and Tobago",
+    "population": 1363985,
+    "area": 5130
+  },
+  {
+    "ImagePath": "Resources/Images/uy.png",
+    "Country": "Uruguay",
+    "population": 3518552,
+    "area": 176215
+  },
+  {
+    "ImagePath": "Resources/Images/ve.png",
+    "Country": "Venezuela",
+    "population": 32219521,
+    "area": 916445
+  }
+]

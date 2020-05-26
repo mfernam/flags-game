@@ -18,4 +18,12 @@
     <system:String x:Key="spanish">Español</system:String>
     <system:String x:Key="correct">Aciertos</system:String>
     <system:String x:Key="wrong">Fallos</system:String>
+    <system:String x:Key="continent">Continente</system:String>
+    <system:String x:Key="africa">África</system:String>
+    <system:String x:Key="asia">Asia</system:String>
+    <system:String x:Key="europe">Europa</system:String>
+    <system:String x:Key="north_america">América del Norte</system:String>
+    <system:String x:Key="south_america">América del Sur</system:String>
+    <system:String x:Key="oceania">Oceanía</system:String>
+    <system:String x:Key="all">Todos</system:String>
 </ResourceDictionary>

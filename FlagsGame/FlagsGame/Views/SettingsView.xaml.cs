@@ -12,19 +12,19 @@ namespace FlagsGame.GUI.View.Views
     {
         Session _session = null;
 
-        public event CloseControlDelegate closeControl;
+        public event ShowOptionDelegate showOption;
         public SettingsView(Session session)
         {
             _session = session;
             InitializeComponent();
         }
 
-        public delegate void CloseControlDelegate(UserControl viewControl);
+        public delegate void ShowOptionDelegate(UserControl viewControl);
 
         private void btnAccept_Click(object sender, RoutedEventArgs e)
         {
             saveChanges();
-            closeControl(new OptionsView(_session));
+            showOption(new OptionsView(_session));
         }
 
         private void saveChanges()

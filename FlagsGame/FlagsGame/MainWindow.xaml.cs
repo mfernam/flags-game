@@ -28,7 +28,7 @@ namespace FlagsGame.GUI.View
             _aboutView = new AboutView();
             _resultsView = new ResultsView();
             _optionsView.showOption += ShowOption;
-            _settingsView.closeControl += ShowOption;
+            _settingsView.showOption += ShowOption;
             InitializeComponent();
         }
 
