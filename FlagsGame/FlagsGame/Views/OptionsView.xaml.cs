@@ -21,7 +21,7 @@ namespace FlagsGame.GUI.View
         {
             this._session = session;
             _settingsView = new SettingsView(_session);
-            _gameView = new GameView();
+            _gameView = new GameView(_session);
             _aboutView = new AboutView();
             _resultsView = new ResultsView();
             InitializeComponent();

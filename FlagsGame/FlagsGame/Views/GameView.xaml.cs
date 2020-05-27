@@ -4,6 +4,7 @@ using System.IO;
 using FlagsGame.Core.Model;
 using System;
 using System.Collections.Generic;
+using FlagsGame.Core;
 
 namespace FlagsGame.GUI.View.Views
 {
@@ -13,19 +14,28 @@ namespace FlagsGame.GUI.View.Views
     public partial class GameView : UserControl
     {
         GamePlayView _gamePlayView = null;
-        public GameView()
+        List<Country> selectedCountries = null;
+        Session _session = null;
+
+        public event ShowOptionDelegate showOption;
+        public GameView(Session session)
         {
-            _gamePlayView = new GamePlayView();
+            _session = session;
             InitializeComponent();
         }
+        public delegate void ShowOptionDelegate(UserControl viewControl);
+
+
 
         private void btnAfrica_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             string location = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\africa.json";
             var jsonString = File.ReadAllText(location, System.Text.Encoding.UTF8);
-            
-            var jsonModel = JsonSerializer.Deserialize<List<Country>>(jsonString);
-            var kk = jsonModel;
+
+            _session.CountryList = JsonSerializer.Deserialize<List<Country>>(jsonString);
+
+            showOption(new GamePlayView(_session.CountryList));
+
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System.Globalization;
+﻿using FlagsGame.Core.Model;
+using System.Collections.Generic;
+using System.Globalization;
 
 namespace FlagsGame.Core
 {
@@ -7,6 +9,8 @@ namespace FlagsGame.Core
         private CultureInfo _language = new CultureInfo("es-ES");
 
         private static readonly Session _instance = new Session();
+
+        private List<Country> _countryList = new List<Country>();
 
         static Session(){}
 
@@ -27,5 +31,6 @@ namespace FlagsGame.Core
             }
     }
         public ModeGame Mode { get; set; } = ModeGame.COUNTRIES;
+        public List<Country> CountryList { get => _countryList; set => _countryList = value; }
     }
 }

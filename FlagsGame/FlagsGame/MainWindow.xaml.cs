@@ -18,17 +18,21 @@ namespace FlagsGame.GUI.View
         private SettingsView _settingsView = null;
         private AboutView _aboutView = null;
         private ResultsView _resultsView = null;
+        private GamePlayView _gamePlayView = null;
         
 
         public MainWindow()
         {
             _optionsView = new OptionsView(_session);
             _settingsView = new SettingsView(_session);
-            _gameView = new GameView();
+            _gameView = new GameView(_session);
             _aboutView = new AboutView();
             _resultsView = new ResultsView();
+
             _optionsView.showOption += ShowOption;
             _settingsView.showOption += ShowOption;
+            _gameView.showOption += ShowOption;
+
             InitializeComponent();
         }
 
@@ -54,6 +58,11 @@ namespace FlagsGame.GUI.View
             if (_viewControl.GetType() == typeof(ResultsView))
             {
                 _contentControl.Children.Add(_resultsView);
+            }
+            if (_viewControl.GetType() == typeof(GamePlayView))
+            {
+                _gamePlayView = new GamePlayView(_session.CountryList);
+                _contentControl.Children.Add(_gamePlayView);
             }
         }
 

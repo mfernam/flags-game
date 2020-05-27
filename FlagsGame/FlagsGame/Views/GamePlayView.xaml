@@ -5,8 +5,21 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FlagsGame.GUI.View.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="347.853" d:DesignWidth="620.552" Name="gameArea" Loaded="gameArea_Loaded">
     <Grid>
-            
+        <Button HorizontalAlignment="Left" Margin="101,245,0,0" VerticalAlignment="Top" Height="41" Width="81" Name="btn1" Click="btn_Click">
+            <Image Name="img1" Width="81" Height="41"></Image>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="214,245,0,0" VerticalAlignment="Top" Height="41" Width="81" Name="btn2" Click="btn_Click">
+            <Image Name="img2" Width="81" Height="41"></Image>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="338,245,0,0" VerticalAlignment="Top" Height="41" Width="81" Name="btn3" Click="btn_Click">
+            <Image Name="img3" Width="81" Height="41"></Image>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="457,245,0,0" VerticalAlignment="Top" Height="41" Width="81" Name="btn4" Click="btn_Click">
+            <Image Name="img4" Width="81" Height="41"></Image>
+        </Button>
+        <Label  HorizontalAlignment="Left" Height="33" Margin="209,81,0,0" VerticalAlignment="Top" Width="176" Name="lblCountry"/>
+        <Button Name="btnBack" Content="Volver" HorizontalAlignment="Left" Margin="566,303,0,0" VerticalAlignment="Top" Click="btnBack_Click"/>
     </Grid>
 </UserControl>

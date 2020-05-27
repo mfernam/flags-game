@@ -1,15 +1,9 @@
-﻿using System;
+﻿using FlagsGame.Core.Model;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Windows;
+using System.Linq;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace FlagsGame.GUI.View.Views
 {
@@ -18,9 +12,52 @@ namespace FlagsGame.GUI.View.Views
     /// </summary>
     public partial class GamePlayView : UserControl
     {
-        public GamePlayView()
+        List<Country> _countries = null;
+        Label lblAnswer = null;
+        public GamePlayView(List<Country> countries)
         {
+            _countries = countries;
             InitializeComponent();
+        }
+
+        private void InitButtons()
+        { 
+            var random = new Random();
+            List<Country> selectedCountries = new List<Country>();
+            selectedCountries = _countries.OrderBy(x=>random.Next()).Take(4).ToList();
+            int index = 1;
+            Country question = (Country)selectedCountries.OrderBy(x => random.Next()).Take(1).FirstOrDefault();
+            lblCountry.Content = question.Name;
+            lblAnswer = new Label();
+            lblAnswer.Name = question.CodCountry;
+            lblAnswer.Visibility = System.Windows.Visibility.Hidden;
+            foreach (Country country in selectedCountries)
+            {
+                Button btn = (Button)gameArea.FindName("btn" + index);
+                btn.Name = country.CodCountry;
+                Image img = (Image)gameArea.FindName("img" + index);
+                var uri = String.Format(@"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Images\{0}.png", country.CodCountry);
+                img.Source = new BitmapImage(new Uri(uri));
+                index++;
+            }
+        }
+
+        private void gameArea_Loaded(object sender, System.Windows.RoutedEventArgs e)
+        {
+            InitButtons();
+        }
+
+        private void btn_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            if (btn.Name.Equals(lblAnswer.Name)){
+                lblCountry.Content = "Correcto";
+            }
+        }
+
+        private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+
         }
     }
 }
