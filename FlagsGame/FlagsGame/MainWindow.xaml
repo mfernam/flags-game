@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
         Title="{DynamicResource fun_with_flags}" Height="553" Width="760" Padding="0" Loaded="Window_Loaded">
     <Grid Margin="0,0,0,0">
-        <Image HorizontalAlignment="Left" Height="95" Margin="127,0,0,0" VerticalAlignment="Top" Width="515"/>
+        <Image Source="Resources/Images/JFFlogo.jpg"  HorizontalAlignment="Left" Height="95" Margin="127,0,0,0" VerticalAlignment="Top" Width="515"/>
         <StackPanel Name="_contentControl" Margin="0,95,0,0"/>
     </Grid>
 </Window>

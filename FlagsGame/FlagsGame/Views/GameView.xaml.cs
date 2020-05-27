@@ -30,11 +30,22 @@ namespace FlagsGame.GUI.View.Views
         private void btnAfrica_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             string location = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\africa.json";
-            var jsonString = File.ReadAllText(location, System.Text.Encoding.UTF8);
-
-            _session.CountryList = JsonSerializer.Deserialize<List<Country>>(jsonString);
-
+            _session.CountryList= GetCountries(location);
             showOption(new GamePlayView(_session.CountryList));
+        }
+
+        private void btnAsia_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            string location = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\asia.json";
+            _session.CountryList = GetCountries(location);
+            showOption(new GamePlayView(_session.CountryList));
+        }
+
+        private List<Country> GetCountries(string continent)
+        {
+            var jsonString = File.ReadAllText(continent, System.Text.Encoding.UTF8);
+
+            return JsonSerializer.Deserialize<List<Country>>(jsonString);
 
         }
     }

@@ -8,7 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Button Content="{DynamicResource africa}" HorizontalAlignment="Left" Margin="108,97,0,0" Name="btnAfrica" VerticalAlignment="Top" Click="btnAfrica_Click"/>
-        <Button Content="{DynamicResource asia}" HorizontalAlignment="Left" Margin="108,165,0,0" Name="btnAsia" VerticalAlignment="Top"/>
+        <Button Content="{DynamicResource asia}" HorizontalAlignment="Left" Margin="108,165,0,0" Name="btnAsia" VerticalAlignment="Top" Click="btnAsia_Click"/>
         <Button Content="{DynamicResource europe}" HorizontalAlignment="Left" Margin="199,97,0,0" Name="btnEurope" VerticalAlignment="Top"/>
         <Button Content="{DynamicResource north_america}" HorizontalAlignment="Left" Margin="292,165,0,0" Name="btnNorthA" VerticalAlignment="Top"/>
         <Button Content="{DynamicResource south_america}" HorizontalAlignment="Left" Margin="292,97,0,0" Name="btnSouthA" VerticalAlignment="Top"/>

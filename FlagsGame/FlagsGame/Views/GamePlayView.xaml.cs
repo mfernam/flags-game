@@ -14,13 +14,15 @@ namespace FlagsGame.GUI.View.Views
     {
         List<Country> _countries = null;
         Label lblAnswer = null;
+        Result _result = null;
         public GamePlayView(List<Country> countries)
         {
+            _result = new Result();
             _countries = countries;
             InitializeComponent();
         }
 
-        private void InitButtons()
+        private void InitQuestion()
         { 
             var random = new Random();
             List<Country> selectedCountries = new List<Country>();
@@ -44,15 +46,23 @@ namespace FlagsGame.GUI.View.Views
 
         private void gameArea_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            InitButtons();
+            InitQuestion();
         }
 
         private void btn_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            if (btn.Name.Equals(lblAnswer.Name)){
-                lblCountry.Content = "Correcto";
+            if(btn.Name.Equals(lblAnswer.Name)){
+                lblCorrect.Content = ++_result.CorrectAnswers;
+                
             }
+            else
+            {
+                lblWrong.Content = ++_result.WrongAnswers;
+                
+            }
+            if(_result.NumQuestions <15)
+                InitQuestion();
         }
 
         private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)

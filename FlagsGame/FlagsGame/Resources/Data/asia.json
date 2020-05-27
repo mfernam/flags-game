@@ -1,314 +1,314 @@
 ﻿[
   {
-    "ImagePath": "Resources/Images/af.png",
-    "Country": "Afghanistan",
-    "population": 32225560,
-    "area": 652230
+    "CodCountry": "af",
+    "Name": "Afghanistan",
+    "Population": 32225560,
+    "Area": 652230
   },
   {
-    "ImagePath": "Resources/Images/am.png",
-    "Country": "Armenia",
-    "population": 2957500,
-    "area": 29743
+    "CodCountry": "am",
+    "Name": "Armenia",
+    "Population": 2957500,
+    "Area": 29743
   },
   {
-    "ImagePath": "Resources/Images/az.png",
-    "Country": "Azerbaijan",
-    "population": 10067108,
-    "area": 86600
+    "CodCountry": "az",
+    "Name": "Azerbaijan",
+    "Population": 10067108,
+    "Area": 86600
   },
   {
-    "ImagePath": "Resources/Images/bh.png",
-    "Country": "Bahrain",
-    "population": 1543300,
-    "area": 778
+    "CodCountry": "bh",
+    "Name": "Bahrain",
+    "Population": 1543300,
+    "Area": 778
   },
   {
-    "ImagePath": "Resources/Images/bd.png",
-    "Country": "Bangladesh",
-    "population": 168163758,
-    "area": 147570
+    "CodCountry": "bd",
+    "Name": "Bangladesh",
+    "Population": 168163758,
+    "Area": 147570
   },
   {
-    "ImagePath": "Resources/Images/bt.png",
-    "Country": "Bhutan",
-    "population": 741672,
-    "area": 38394
+    "CodCountry": "bt",
+    "Name": "Bhutan",
+    "Population": 741672,
+    "Area": 38394
   },
   {
-    "ImagePath": "Resources/Images/bn.png",
-    "Country": "Brunei",
-    "population": 442400,
-    "area": 5765
+    "CodCountry": "bn",
+    "Name": "Brunei",
+    "Population": 442400,
+    "Area": 5765
   },
   {
-    "ImagePath": "Resources/Images/kh.png",
-    "Country": "Cambodia",
-    "population": 15288489,
-    "area": 181035
+    "CodCountry": "kh",
+    "Name": "Cambodia",
+    "Population": 15288489,
+    "Area": 181035
   },
   {
-    "ImagePath": "Resources/Images/cn.png",
-    "Country": "China",
-    "population": 1401492920,
-    "area": 9596960
+    "CodCountry": "cn",
+    "Name": "China",
+    "Population": 1401492920,
+    "Area": 9596960
   },
   {
-    "ImagePath": "Resources/Images/eg.png",
-    "Country": "Egypt",
-    "population": 100052943,
-    "area": 1002450
+    "CodCountry": "eg",
+    "Name": "Egypt",
+    "Population": 100052943,
+    "Area": 1002450
   },
   {
-    "ImagePath": "Resources/Images/ge.png",
-    "Country": "Georgia",
-    "population": 3723464,
-    "area": 69700
+    "CodCountry": "ge",
+    "Name": "Georgia",
+    "Population": 3723464,
+    "Area": 69700
   },
   {
-    "ImagePath": "Resources/Images/hk.png",
-    "Country": "Hong Kong",
-    "population": 7500700,
-    "area": 1104
+    "CodCountry": "hk",
+    "Name": "Hong Kong",
+    "Population": 7500700,
+    "Area": 1104
   },
   {
-    "ImagePath": "Resources/Images/in.png",
-    "Country": "India",
-    "population": 1359072550,
-    "area": 3287260
+    "CodCountry": "in",
+    "Name": "India",
+    "Population": 1359072550,
+    "Area": 3287260
   },
   {
-    "ImagePath": "Resources/Images/id.png",
-    "Country": "Indonesia",
-    "population": 266911900,
-    "area": 1910930
+    "CodCountry": "id",
+    "Name": "Indonesia",
+    "Population": 266911900,
+    "Area": 1910930
   },
   {
-    "ImagePath": "Resources/Images/ir.png",
-    "Country": "Iran",
-    "population": 83230120,
-    "area": 1648200
+    "CodCountry": "ir",
+    "Name": "Iran",
+    "Population": 83230120,
+    "Area": 1648200
   },
   {
-    "ImagePath": "Resources/Images/iq.png",
-    "Country": "Iraq",
-    "population": 39127900,
-    "area": 438317
+    "CodCountry": "iq",
+    "Name": "Iraq",
+    "Population": 39127900,
+    "Area": 438317
   },
   {
-    "ImagePath": "Resources/Images/il.png",
-    "Country": "Israel",
-    "population": 9164160,
-    "area": 20770
+    "CodCountry": "il",
+    "Name": "Israel",
+    "Population": 9164160,
+    "Area": 20770
   },
   {
-    "ImagePath": "Resources/Images/jp.png",
-    "Country": "Japan",
-    "population": 126010000,
-    "area": 377975
+    "CodCountry": "jp",
+    "Name": "Japan",
+    "Population": 126010000,
+    "Area": 377975
   },
   {
-    "ImagePath": "Resources/Images/jo.png",
-    "Country": "Jordan",
-    "population": 10622608,
-    "area": 89342
+    "CodCountry": "jo",
+    "Name": "Jordan",
+    "Population": 10622608,
+    "Area": 89342
   },
   {
-    "ImagePath": "Resources/Images/kz.png",
-    "Country": "Kazakhstan",
-    "population": 18651680,
-    "area": 2724900
+    "CodCountry": "kz",
+    "Name": "Kazakhstan",
+    "Population": 18651680,
+    "Area": 2724900
   },
   {
-    "ImagePath": "Resources/Images/kp.png",
-    "Country": "North Korea",
-    "population": 25450000,
-    "area": 120540
+    "CodCountry": "kp",
+    "Name": "North Korea",
+    "Population": 25450000,
+    "Area": 120540
   },
   {
-    "ImagePath": "Resources/Images/kr.png",
-    "Country": "South Korea",
-    "population": 51780579,
-    "area": 100210
+    "CodCountry": "kr",
+    "Name": "South Korea",
+    "Population": 51780579,
+    "Area": 100210
   },
   {
-    "ImagePath": "Resources/Images/kw.png",
-    "Country": "Kuwait",
-    "population": 4420110,
-    "area": 17818
+    "CodCountry": "kw",
+    "Name": "Kuwait",
+    "Population": 4420110,
+    "Area": 17818
   },
   {
-    "ImagePath": "Resources/Images/kg.png",
-    "Country": "Kyrgyzstan",
-    "population": 6490300,
-    "area": 199951
+    "CodCountry": "kg",
+    "Name": "Kyrgyzstan",
+    "Population": 6490300,
+    "Area": 199951
   },
   {
-    "ImagePath": "Resources/Images/la.png",
-    "Country": "Laos",
-    "population": 7123205,
-    "area": 236800
+    "CodCountry": "la",
+    "Name": "Laos",
+    "Population": 7123205,
+    "Area": 236800
   },
   {
-    "ImagePath": "Resources/Images/lb.png",
-    "Country": "Lebanon",
-    "population": 6855713,
-    "area": 10452
+    "CodCountry": "lb",
+    "Name": "Lebanon",
+    "Population": 6855713,
+    "Area": 10452
   },
   {
-    "ImagePath": "Resources/Images/mo.png",
-    "Country": "Macau",
-    "population": 676100,
-    "area": 30
+    "CodCountry": "mo",
+    "Name": "Macau",
+    "Population": 676100,
+    "Area": 30
   },
   {
-    "ImagePath": "Resources/Images/my.png",
-    "Country": "Malaysia",
-    "population": 32700760,
-    "area": 330803
+    "CodCountry": "my",
+    "Name": "Malaysia",
+    "Population": 32700760,
+    "Area": 330803
   },
   {
-    "ImagePath": "Resources/Images/mv.png",
-    "Country": "Maldives",
-    "population": 374775,
-    "area": 300
+    "CodCountry": "mv",
+    "Name": "Maldives",
+    "Population": 374775,
+    "Area": 300
   },
   {
-    "ImagePath": "Resources/Images/mn.png",
-    "Country": "Mongolia",
-    "population": 3304526,
-    "area": 1564110
+    "CodCountry": "mn",
+    "Name": "Mongolia",
+    "Population": 3304526,
+    "Area": 1564110
   },
   {
-    "ImagePath": "Resources/Images/mm.png",
-    "Country": "Myanmar",
-    "population": 54339766,
-    "area": 676578
+    "CodCountry": "mm",
+    "Name": "Myanmar",
+    "Population": 54339766,
+    "Area": 676578
   },
   {
-    "ImagePath": "Resources/Images/np.png",
-    "Country": "Nepal",
-    "population": 29609623,
-    "area": 147181
+    "CodCountry": "np",
+    "Name": "Nepal",
+    "Population": 29609623,
+    "Area": 147181
   },
   {
-    "ImagePath": "Resources/Images/om.png",
-    "Country": "Oman",
-    "population": 4664790,
-    "area": 309500
+    "CodCountry": "om",
+    "Name": "Oman",
+    "Population": 4664790,
+    "Area": 309500
   },
   {
-    "ImagePath": "Resources/Images/pk.png",
-    "Country": "Pakistan",
-    "population": 218741520,
-    "area": 907132
+    "CodCountry": "pk",
+    "Name": "Pakistan",
+    "Population": 218741520,
+    "Area": 907132
   },
   {
-    "ImagePath": "Resources/Images/ps.png",
-    "Country": "Palestine",
-    "population": 5051953,
-    "area": 6020
+    "CodCountry": "ps",
+    "Name": "Palestine",
+    "Population": 5051953,
+    "Area": 6020
   },
   {
-    "ImagePath": "Resources/Images/ph.png",
-    "Country": "Philippines",
-    "population": 108323702,
-    "area": 300000
+    "CodCountry": "ph",
+    "Name": "Philippines",
+    "Population": 108323702,
+    "Area": 300000
   },
   {
-    "ImagePath": "Resources/Images/qa.png",
-    "Country": "Qatar",
-    "population": 2747282,
-    "area": 11586
+    "CodCountry": "qa",
+    "Name": "Qatar",
+    "Population": 2747282,
+    "Area": 11586
   },
   {
-    "ImagePath": "Resources/Images/ru.png",
-    "Country": "Russia",
-    "population": 146780720,
-    "area": 17098200
+    "CodCountry": "ru",
+    "Name": "Russia",
+    "Population": 146780720,
+    "Area": 17098200
   },
   {
-    "ImagePath": "Resources/Images/sa.png",
-    "Country": "Saudi Arabia",
-    "population": 34218169,
-    "area": 2149690
+    "CodCountry": "sa",
+    "Name": "Saudi Arabia",
+    "Population": 34218169,
+    "Area": 2149690
   },
   {
-    "ImagePath": "Resources/Images/sg.png",
-    "Country": "Singapore",
-    "population": 5703600,
-    "area": 716
+    "CodCountry": "sg",
+    "Name": "Singapore",
+    "Population": 5703600,
+    "Area": 716
   },
   {
-    "ImagePath": "Resources/Images/lk.png",
-    "Country": "Sri Lanka",
-    "population": 21803000,
-    "area": 65610
+    "CodCountry": "lk",
+    "Name": "Sri Lanka",
+    "Population": 21803000,
+    "Area": 65610
   },
   {
-    "ImagePath": "Resources/Images/sy.png",
-    "Country": "Syria",
-    "population": 17070135,
-    "area": 185180
+    "CodCountry": "sy",
+    "Name": "Syria",
+    "Population": 17070135,
+    "Area": 185180
   },
   {
-    "ImagePath": "Resources/Images/tw.png",
-    "Country": "Taiwan",
-    "population": 23604265,
-    "area": 36193
+    "CodCountry": "tw",
+    "Name": "Taiwan",
+    "Population": 23604265,
+    "Area": 36193
   },
   {
-    "ImagePath": "Resources/Images/tj.png",
-    "Country": "Tajikistan",
-    "population": 9127000,
-    "area": 143100
+    "CodCountry": "tj",
+    "Name": "Tajikistan",
+    "Population": 9127000,
+    "Area": 143100
   },
   {
-    "ImagePath": "Resources/Images/th.png",
-    "Country": "Thailand",
-    "population": 66474267,
-    "area": 513120
+    "CodCountry": "th",
+    "Name": "Thailand",
+    "Population": 66474267,
+    "Area": 513120
   },
   {
-    "ImagePath": "Resources/Images/tl.png",
-    "Country": "Timor-Leste",
-    "population": 1387149,
-    "area": 14919
+    "CodCountry": "tl",
+    "Name": "Timor-Leste",
+    "Population": 1387149,
+    "Area": 14919
   },
   {
-    "ImagePath": "Resources/Images/tr.png",
-    "Country": "Turkey",
-    "population": 83154997,
-    "area": 783562
+    "CodCountry": "tr",
+    "Name": "Turkey",
+    "Population": 83154997,
+    "Area": 783562
   },
   {
-    "ImagePath": "Resources/Images/tm.png",
-    "Country": "Turkmenistan",
-    "population": 5942089,
-    "area": 488100
+    "CodCountry": "tm",
+    "Name": "Turkmenistan",
+    "Population": 5942089,
+    "Area": 488100
   },
   {
-    "ImagePath": "Resources/Images/ae.png",
-    "Country": "United Arab Emirates",
-    "population": 9770529,
-    "area": 83600
+    "CodCountry": "ae",
+    "Name": "United Arab Emirates",
+    "Population": 9770529,
+    "Area": 83600
   },
   {
-    "ImagePath": "Resources/Images/uz.png",
-    "Country": "Uzbekistan",
-    "population": 34034952,
-    "area": 447400
+    "CodCountry": "uz",
+    "Name": "Uzbekistan",
+    "Population": 34034952,
+    "Area": 447400
   },
   {
-    "ImagePath": "Resources/Images/vn.png",
-    "Country": "Vietnam",
-    "population": 96208984,
-    "area": 331212
+    "CodCountry": "vn",
+    "Name": "Vietnam",
+    "Population": 96208984,
+    "Area": 331212
   },
   {
-    "ImagePath": "Resources/Images/ye.png",
-    "Country": "Yemen",
-    "population": 29161922,
-    "area": 527968
+    "CodCountry": "ye",
+    "Name": "Yemen",
+    "Population": 29161922,
+    "Area": 527968
   }
 ]
