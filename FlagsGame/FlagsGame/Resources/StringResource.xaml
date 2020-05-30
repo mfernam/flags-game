@@ -26,4 +26,8 @@
     <system:String x:Key="south_america">América del Sur</system:String>
     <system:String x:Key="oceania">Oceanía</system:String>
     <system:String x:Key="all">Todos</system:String>
+    <system:String x:Key="game_finish">Juego terminado</system:String>
+    <system:String x:Key="name">Nombre</system:String>
+    <system:String x:Key="back">Volver</system:String>
+    <system:String x:Key="time">Tiempo</system:String>
 </ResourceDictionary>

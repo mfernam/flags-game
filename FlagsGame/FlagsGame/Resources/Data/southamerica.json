@@ -1,92 +1,92 @@
 ﻿[
   {
-    "ImagePath": "Resources/Images/ar.png",
-    "Country": "Argentina",
-    "population": 44938712,
-    "area": 2780400
+    "CodCountry": "ar",
+    "Name": "Argentina",
+    "Population": 44938712,
+    "Area": 2780400
   },
   {
-    "ImagePath": "Resources/Images/bo.png",
-    "Country": "Bolivia",
-    "population": 11469896,
-    "area": 1098580
+    "CodCountry": "bo",
+    "Name": "Bolivia",
+    "Population": 11469896,
+    "Area": 1098580
   },
   {
-    "ImagePath": "Resources/Images/br.png",
-    "Country": "Brazil",
-    "population": 211173432,
-    "area": 8515770
+    "CodCountry": "br",
+    "Name": "Brazil",
+    "Population": 211173432,
+    "Area": 8515770
   },
   {
-    "ImagePath": "Resources/Images/cl.png",
-    "Country": "Chile",
-    "population": 19107216,
-    "area": 756102
+    "CodCountry": "cl",
+    "Name": "Chile",
+    "Population": 19107216,
+    "Area": 756102
   },
   {
-    "ImagePath": "Resources/Images/co.png",
-    "Country": "Colombia",
-    "population": 49395678,
-    "area": 1141750
+    "CodCountry": "co",
+    "Name": "Colombia",
+    "Population": 49395678,
+    "Area": 1141750
   },
   {
-    "ImagePath": "Resources/Images/ec.png",
-    "Country": "Ecuador",
-    "population": 17431712,
-    "area": 276841
+    "CodCountry": "ec",
+    "Name": "Ecuador",
+    "Population": 17431712,
+    "Area": 276841
   },
   {
-    "ImagePath": "Resources/Images/fk.png",
-    "Country": "Falkland Islands",
-    "population": 3198,
-    "area": 12173
+    "CodCountry": "fk",
+    "Name": "Falkland Islands",
+    "Population": 3198,
+    "Area": 12173
   },
   {
-    "ImagePath": "Resources/Images/gf.png",
-    "Country": "French Guiana",
-    "population": 290691,
-    "area": 83534
+    "CodCountry": "gf",
+    "Name": "French Guiana",
+    "Population": 290691,
+    "Area": 83534
   },
   {
-    "ImagePath": "Resources/Images/gy.png",
-    "Country": "Guyana",
-    "population": 782766,
-    "area": 214969
+    "CodCountry": "gy",
+    "Name": "Guyana",
+    "Population": 782766,
+    "Area": 214969
   },
   {
-    "ImagePath": "Resources/Images/py.png",
-    "Country": "Paraguay",
-    "population": 7152703,
-    "area": 406752
+    "CodCountry": "py",
+    "Name": "Paraguay",
+    "Population": 7152703,
+    "Area": 406752
   },
   {
-    "ImagePath": "Resources/Images/pe.png",
-    "Country": "Peru",
-    "population": 32131400,
-    "area": 1285220
+    "CodCountry": "pe",
+    "Name": "Peru",
+    "Population": 32131400,
+    "Area": 1285220
   },
   {
-    "ImagePath": "Resources/Images/sr.png",
-    "Country": "Suriname",
-    "population": 581372,
-    "area": 163820
+    "CodCountry": "sr",
+    "Name": "Suriname",
+    "Population": 581372,
+    "Area": 163820
   },
   {
-    "ImagePath": "Resources/Images/tt.png",
-    "Country": "Trinidad and Tobago",
-    "population": 1363985,
-    "area": 5130
+    "CodCountry": "tt",
+    "Name": "Trinidad and Tobago",
+    "Population": 1363985,
+    "Area": 5130
   },
   {
-    "ImagePath": "Resources/Images/uy.png",
-    "Country": "Uruguay",
-    "population": 3518552,
-    "area": 176215
+    "CodCountry": "uy",
+    "Name": "Uruguay",
+    "Population": 3518552,
+    "Area": 176215
   },
   {
-    "ImagePath": "Resources/Images/ve.png",
-    "Country": "Venezuela",
-    "population": 32219521,
-    "area": 916445
+    "CodCountry": "ve",
+    "Name": "Venezuela",
+    "Population": 32219521,
+    "Area": 916445
   }
 ]

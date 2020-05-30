@@ -26,4 +26,8 @@
     <system:String x:Key="south_america">South America</system:String>
     <system:String x:Key="oceania">Oceania</system:String>
     <system:String x:Key="all">All</system:String>
+    <system:String x:Key="game_finish">Finish game</system:String> 
+    <system:String x:Key="name">Name</system:String>
+    <system:String x:Key="back">Back</system:String>
+    <system:String x:Key="time">Time</system:String>
 </wpf:ResourceDictionary>

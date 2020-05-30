@@ -1,326 +1,326 @@
 ﻿[
   {
-    "ImagePath": "Resources/Images/ax.png",
-    "Country": "Åland Islands",
-    "population": 29789,
-    "area": 1580
+    "CodCountry": "ax",
+    "Name": "Åland Islands",
+    "Population": 29789,
+    "Area": 1580
   },
   {
-    "ImagePath": "Resources/Images/al.png",
-    "Country": "Albania",
-    "population": 2862427,
-    "area": 28748
+    "CodCountry": "al",
+    "Name": "Albania",
+    "Population": 2862427,
+    "Area": 28748
   },
   {
-    "ImagePath": "Resources/Images/ad.png",
-    "Country": "Andorra",
-    "population": 77543,
-    "area": 468
+    "CodCountry": "ad",
+    "Name": "Andorra",
+    "Population": 77543,
+    "Area": 468
   },
   {
-    "ImagePath": "Resources/Images/at.png",
-    "Country": "Austria",
-    "population": 8902600,
-    "area": 83871
+    "CodCountry": "at",
+    "Name": "Austria",
+    "Population": 8902600,
+    "Area": 83871
   },
   {
-    "ImagePath": "Resources/Images/by.png",
-    "Country": "Belarus",
-    "population": 9413446,
-    "area": 207600
+    "CodCountry": "by",
+    "Name": "Belarus",
+    "Population": 9413446,
+    "Area": 207600
   },
   {
-    "ImagePath": "Resources/Images/be.png",
-    "Country": "Belgium",
-    "population": 11522169,
-    "area": 30528
+    "CodCountry": "be",
+    "Name": "Belgium",
+    "Population": 11522169,
+    "Area": 30528
   },
   {
-    "ImagePath": "Resources/Images/ba.png",
-    "Country": "Bosnia and Herzegovina",
-    "population": 3301000,
-    "area": 51209
+    "CodCountry": "ba",
+    "Name": "Bosnia and Herzegovina",
+    "Population": 3301000,
+    "Area": 51209
   },
   {
-    "ImagePath": "Resources/Images/bg.png",
-    "Country": "Bulgaria",
-    "population": 7000039,
-    "area": 111002
+    "CodCountry": "bg",
+    "Name": "Bulgaria",
+    "Population": 7000039,
+    "Area": 111002
   },
   {
-    "ImagePath": "Resources/Images/hr.png",
-    "Country": "Croatia",
-    "population": 4076246,
-    "area": 56594
+    "CodCountry": "hr",
+    "Name": "Croatia",
+    "Population": 4076246,
+    "Area": 56594
   },
   {
-    "ImagePath": "Resources/Images/cy.png",
-    "Country": "Cyprus",
-    "population": 875900,
-    "area": 9251
+    "CodCountry": "cy",
+    "Name": "Cyprus",
+    "Population": 875900,
+    "Area": 9251
   },
   {
-    "ImagePath": "Resources/Images/cz.png",
-    "Country": "Czechia",
-    "population": 10681161,
-    "area": 78865
+    "CodCountry": "cz",
+    "Name": "Czechia",
+    "Population": 10681161,
+    "Area": 78865
   },
   {
-    "ImagePath": "Resources/Images/dk.png",
-    "Country": "Denmark",
-    "population": 5822763,
-    "area": 43094
+    "CodCountry": "dk",
+    "Name": "Denmark",
+    "Population": 5822763,
+    "Area": 43094
   },
   {
-    "ImagePath": "Resources/Images/ee.png",
-    "Country": "Estonia",
-    "population": 1328360,
-    "area": 45227
+    "CodCountry": "ee",
+    "Name": "Estonia",
+    "Population": 1328360,
+    "Area": 45227
   },
   {
-    "ImagePath": "Resources/Images/fo.png",
-    "Country": "Faroe Islands",
-    "population": 52124,
-    "area": 1393
+    "CodCountry": "fo",
+    "Name": "Faroe Islands",
+    "Population": 52124,
+    "Area": 1393
   },
   {
-    "ImagePath": "Resources/Images/fi.png",
-    "Country": "Finland",
-    "population": 5527573,
-    "area": 338424
+    "CodCountry": "fi",
+    "Name": "Finland",
+    "Population": 5527573,
+    "Area": 338424
   },
   {
-    "ImagePath": "Resources/Images/fr.png",
-    "Country": "France",
-    "population": 67064000,
-    "area": 640679
+    "CodCountry": "fr",
+    "Name": "France",
+    "Population": 67064000,
+    "Area": 640679
   },
   {
-    "ImagePath": "Resources/Images/de.png",
-    "Country": "Germany",
-    "population": 83149300,
-    "area": 357114
+    "CodCountry": "de",
+    "Name": "Germany",
+    "Population": 83149300,
+    "Area": 357114
   },
   {
-    "ImagePath": "Resources/Images/gi.png",
-    "Country": "Gibraltar",
-    "population": 33701,
-    "area": 6
+    "CodCountry": "gi",
+    "Name": "Gibraltar",
+    "Population": 33701,
+    "Area": 6
   },
   {
-    "ImagePath": "Resources/Images/gr.png",
-    "Country": "Greece",
-    "population": 10724599,
-    "area": 131957
+    "CodCountry": "gr",
+    "Name": "Greece",
+    "Population": 10724599,
+    "Area": 131957
   },
   {
-    "ImagePath": "Resources/Images/gg.png",
-    "Country": "Guernsey",
-    "population": 62792,
-    "area": 78
+    "CodCountry": "gg",
+    "Name": "Guernsey",
+    "Population": 62792,
+    "Area": 78
   },
   {
-    "ImagePath": "Resources/Images/hu.png",
-    "Country": "Hungary",
-    "population": 9772756,
-    "area": 93028
+    "CodCountry": "hu",
+    "Name": "Hungary",
+    "Population": 9772756,
+    "Area": 93028
   },
   {
-    "ImagePath": "Resources/Images/is.png",
-    "Country": "Iceland",
-    "population": 364260,
-    "area": 103000
+    "CodCountry": "is",
+    "Name": "Iceland",
+    "Population": 364260,
+    "Area": 103000
   },
   {
-    "ImagePath": "Resources/Images/ie.png",
-    "Country": "Ireland",
-    "population": 4921500,
-    "area": 70273
+    "CodCountry": "ie",
+    "Name": "Ireland",
+    "Population": 4921500,
+    "Area": 70273
   },
   {
-    "ImagePath": "Resources/Images/im.png",
-    "Country": "Isle of Man",
-    "population": 83314,
-    "area": 572
+    "CodCountry": "im",
+    "Name": "Isle of Man",
+    "Population": 83314,
+    "Area": 572
   },
   {
-    "ImagePath": "Resources/Images/it.png",
-    "Country": "Italy",
-    "population": 60247214,
-    "area": 301339
+    "CodCountry": "it",
+    "Name": "Italy",
+    "Population": 60247214,
+    "Area": 301339
   },
   {
-    "ImagePath": "Resources/Images/je.png",
-    "Country": "Jersey",
-    "population": 106800,
-    "area": 116
+    "CodCountry": "je",
+    "Name": "Jersey",
+    "Population": 106800,
+    "Area": 116
   },
   {
-    "ImagePath": "Resources/Images/xk.png",
-    "Country": "Kosovo",
-    "population": 1795666,
-    "area": 10887
+    "CodCountry": "xk",
+    "Name": "Kosovo",
+    "Population": 1795666,
+    "Area": 10887
   },
   {
-    "ImagePath": "Resources/Images/lv.png",
-    "Country": "Latvia",
-    "population": 1906800,
-    "area": 64559
+    "CodCountry": "lv",
+    "Name": "Latvia",
+    "Population": 1906800,
+    "Area": 64559
   },
   {
-    "ImagePath": "Resources/Images/li.png",
-    "Country": "Liechtenstein",
-    "population": 38557,
-    "area": 160
+    "CodCountry": "li",
+    "Name": "Liechtenstein",
+    "Population": 38557,
+    "Area": 160
   },
   {
-    "ImagePath": "Resources/Images/lt.png",
-    "Country": "Lithuania",
-    "population": 2793350,
-    "area": 65300
+    "CodCountry": "lt",
+    "Name": "Lithuania",
+    "Population": 2793350,
+    "Area": 65300
   },
   {
-    "ImagePath": "Resources/Images/lu.png",
-    "Country": "Luxembourg",
-    "population": 613894,
-    "area": 2586
+    "CodCountry": "lu",
+    "Name": "Luxembourg",
+    "Population": 613894,
+    "Area": 2586
   },
   {
-    "ImagePath": "Resources/Images/mt.png",
-    "Country": "Malta",
-    "population": 493559,
-    "area": 316
+    "CodCountry": "mt",
+    "Name": "Malta",
+    "Population": 493559,
+    "Area": 316
   },
   {
-    "ImagePath": "Resources/Images/md.png",
-    "Country": "Moldova",
-    "population": 2681735,
-    "area": 33846
+    "CodCountry": "md",
+    "Name": "Moldova",
+    "Population": 2681735,
+    "Area": 33846
   },
   {
-    "ImagePath": "Resources/Images/mc.png",
-    "Country": "Monaco",
-    "population": 38300,
-    "area": 2.02
+    "CodCountry": "mc",
+    "Name": "Monaco",
+    "Population": 38300,
+    "Area": 2.02
   },
   {
-    "ImagePath": "Resources/Images/me.png",
-    "Country": "Montenegro",
-    "population": 622359,
-    "area": 13812
+    "CodCountry": "me",
+    "Name": "Montenegro",
+    "Population": 622359,
+    "Area": 13812
   },
   {
-    "ImagePath": "Resources/Images/nl.png",
-    "Country": "Netherlands",
-    "population": 17438081,
-    "area": 41850
+    "CodCountry": "nl",
+    "Name": "Netherlands",
+    "Population": 17438081,
+    "Area": 41850
   },
   {
-    "ImagePath": "Resources/Images/mk.png",
-    "Country": "North Macedonia",
-    "population": 2077132,
-    "area": 25713
+    "CodCountry": "mk",
+    "Name": "North Macedonia",
+    "Population": 2077132,
+    "Area": 25713
   },
   {
-    "ImagePath": "Resources/Images/no.png",
-    "Country": "Norway",
-    "population": 5356789,
-    "area": 323802
+    "CodCountry": "no",
+    "Name": "Norway",
+    "Population": 5356789,
+    "Area": 323802
   },
   {
-    "ImagePath": "Resources/Images/pl.png",
-    "Country": "Poland",
-    "population": 38386000,
-    "area": 312696
+    "CodCountry": "pl",
+    "Name": "Poland",
+    "Population": 38386000,
+    "Area": 312696
   },
   {
-    "ImagePath": "Resources/Images/pt.png",
-    "Country": "Portugal",
-    "population": 10276617,
-    "area": 92090
+    "CodCountry": "pt",
+    "Name": "Portugal",
+    "Population": 10276617,
+    "Area": 92090
   },
   {
-    "ImagePath": "Resources/Images/ro.png",
-    "Country": "Romania",
-    "population": 19405156,
-    "area": 238397
+    "CodCountry": "ro",
+    "Name": "Romania",
+    "Population": 19405156,
+    "Area": 238397
   },
   {
-    "ImagePath": "Resources/Images/ru.png",
-    "Country": "Russia",
-    "population": 146780720,
-    "area": 17098200
+    "CodCountry": "ru",
+    "Name": "Russia",
+    "Population": 146780720,
+    "Area": 17098200
   },
   {
-    "ImagePath": "Resources/Images/sm.png",
-    "Country": "San Marino",
-    "population": 33574,
-    "area": 61
+    "CodCountry": "sm",
+    "Name": "San Marino",
+    "Population": 33574,
+    "Area": 61
   },
   {
-    "ImagePath": "Resources/Images/rs.png",
-    "Country": "Serbia",
-    "population": 6963764,
-    "area": 88361
+    "CodCountry": "rs",
+    "Name": "Serbia",
+    "Population": 6963764,
+    "Area": 88361
   },
   {
-    "ImagePath": "Resources/Images/sk.png",
-    "Country": "Slovakia",
-    "population": 5456362,
-    "area": 49037
+    "CodCountry": "sk",
+    "Name": "Slovakia",
+    "Population": 5456362,
+    "Area": 49037
   },
   {
-    "ImagePath": "Resources/Images/si.png",
-    "Country": "Slovenia",
-    "population": 2094060,
-    "area": 20273
+    "CodCountry": "si",
+    "Name": "Slovenia",
+    "Population": 2094060,
+    "Area": 20273
   },
   {
-    "ImagePath": "Resources/Images/es.png",
-    "Country": "Spain",
-    "population": 47100396,
-    "area": 505992
+    "CodCountry": "es",
+    "Name": "Spain",
+    "Population": 47100396,
+    "Area": 505992
   },
   {
-    "ImagePath": "Resources/Images/sj.png",
-    "Country": "Svalbard and Jan Mayen",
-    "population": 0,
-    "area": 61022
+    "CodCountry": "sj",
+    "Name": "Svalbard and Jan Mayen",
+    "Population": 0,
+    "Area": 61022
   },
   {
-    "ImagePath": "Resources/Images/se.png",
-    "Country": "Sweden",
-    "population": 10327589,
-    "area": 450295
+    "CodCountry": "se",
+    "Name": "Sweden",
+    "Population": 10327589,
+    "Area": 450295
   },
   {
-    "ImagePath": "Resources/Images/ch.png",
-    "Country": "Switzerland",
-    "population": 8586550,
-    "area": 41284
+    "CodCountry": "ch",
+    "Name": "Switzerland",
+    "Population": 8586550,
+    "Area": 41284
   },
   {
-    "ImagePath": "Resources/Images/tr.png",
-    "Country": "Turkey",
-    "population": 83154997,
-    "area": 783562
+    "CodCountry": "tr",
+    "Name": "Turkey",
+    "Population": 83154997,
+    "Area": 783562
   },
   {
-    "ImagePath": "Resources/Images/ua.png",
-    "Country": "Ukraine",
-    "population": 41902416,
-    "area": 603500
+    "CodCountry": "ua",
+    "Name": "Ukraine",
+    "Population": 41902416,
+    "Area": 603500
   },
   {
-    "ImagePath": "Resources/Images/gb.png",
-    "Country": "United Kingdom",
-    "population": 66435600,
-    "area": 242495
+    "CodCountry": "gb",
+    "Name": "United Kingdom",
+    "Population": 66435600,
+    "Area": 242495
   },
   {
-    "ImagePath": "Resources/Images/va.png",
-    "Country": "Vatican City",
-    "population": 799,
-    "area": 0.44
+    "CodCountry": "va",
+    "Name": "Vatican City",
+    "Population": 799,
+    "Area": 0.44
   }
 ]

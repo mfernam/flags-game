@@ -7,21 +7,23 @@
              mc:Ignorable="d" 
              d:DesignHeight="303.681" d:DesignWidth="588.804" Name="gameArea" Loaded="gameArea_Loaded">
     <Grid Margin="0,0,0,10">
-        <Button HorizontalAlignment="Left" Margin="101,149,0,0" VerticalAlignment="Top" Height="41" Width="81" Name="btn1" Click="btn_Click">
-            <Image Name="img1" Width="81" Height="41"></Image>
+        <Button HorizontalAlignment="Left" Margin="101,150,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btn1" Click="btn_Click">
+            <Image Name="img1" Width="100" Height="50"/>
         </Button>
-        <Button HorizontalAlignment="Left" Margin="214,150,0,0" VerticalAlignment="Top" Height="41" Width="81" Name="btn2" Click="btn_Click">
-            <Image Name="img2" Width="81" Height="41"></Image>
+        <Button HorizontalAlignment="Left" Margin="214,150,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btn2" Click="btn_Click">
+            <Image Name="img2" Width="100" Height="50"></Image>
         </Button>
-        <Button HorizontalAlignment="Left" Margin="338,155,0,0" VerticalAlignment="Top" Height="41" Width="81" Name="btn3" Click="btn_Click">
-            <Image Name="img3" Width="81" Height="41"></Image>
+        <Button HorizontalAlignment="Left" Margin="338,150,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btn3" Click="btn_Click">
+            <Image Name="img3" Width="100" Height="50"></Image>
         </Button>
-        <Button HorizontalAlignment="Left" Margin="457,155,0,0" VerticalAlignment="Top" Height="41" Width="81" Name="btn4" Click="btn_Click">
-            <Image Name="img4" Width="81" Height="41"></Image>
+        <Button HorizontalAlignment="Left" Margin="457,150,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btn4" Click="btn_Click">
+            <Image Name="img4" Width="100" Height="50"></Image>
         </Button>
-        <Label  HorizontalAlignment="Left" Height="33" Margin="188,66,0,0" VerticalAlignment="Top" Width="176" Name="lblCountry" FontSize="16"/>
+        <Label  HorizontalAlignment="Left" Height="33" Margin="151,96,0,0" VerticalAlignment="Top" Width="329" Name="lblCountry" FontSize="16"/>
         <Button Name="btnBack" Content="Volver" HorizontalAlignment="Left" Margin="501,252,0,0" VerticalAlignment="Top" Click="btnBack_Click"/>
-        <Label Name="lblCorrect" Content="0" HorizontalAlignment="Left" Margin="471,54,0,0" VerticalAlignment="Top" Background="#FF52BF07"/>
-        <Label x:Name="lblWrong" Content="0" HorizontalAlignment="Left" Margin="511,54,0,0" VerticalAlignment="Top" Background="#FFD82D06"/>
+        <Label Name="lblCorrect" Content="0" HorizontalAlignment="Left" Margin="403,26,0,0" VerticalAlignment="Top" Background="#FF327A01" Foreground="#FFEEE6E6" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="lblWrong" Content="0" HorizontalAlignment="Left" Margin="511,26,0,0" VerticalAlignment="Top" Background="#FFD82D06" FontWeight="Bold" Foreground="#FFD6C9C9" FontSize="14"/>
+        <Label Content="{DynamicResource correct}" HorizontalAlignment="Left" Margin="338,26,0,0" VerticalAlignment="Top"/>
+        <Label Content="{DynamicResource wrong}" HorizontalAlignment="Left" Margin="457,29,0,0" VerticalAlignment="Top"/>
     </Grid>
 </UserControl>

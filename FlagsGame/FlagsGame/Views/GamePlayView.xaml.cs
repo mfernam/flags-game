@@ -1,9 +1,15 @@
-﻿using FlagsGame.Core.Model;
+﻿using FlagsGame.Core;
+using FlagsGame.Core.Model;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text.Json;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
+using System.Diagnostics;
+using System.Threading;
+using System.Windows;
 
 namespace FlagsGame.GUI.View.Views
 {
@@ -12,21 +18,29 @@ namespace FlagsGame.GUI.View.Views
     /// </summary>
     public partial class GamePlayView : UserControl
     {
-        List<Country> _countries = null;
+        Session _session = null;
         Label lblAnswer = null;
         Result _result = null;
-        public GamePlayView(List<Country> countries)
+        Stopwatch _stopWatch = null;
+        FinishGameView _finishGameView = null;
+        public event ShowOptionDelegate showOption;
+        public GamePlayView(Session session)
         {
             _result = new Result();
-            _countries = countries;
+            _result.Current = true;
+            _session = session;
+            _stopWatch = new Stopwatch();
+            _finishGameView = new FinishGameView(_session);
             InitializeComponent();
         }
 
+        public delegate void ShowOptionDelegate(UserControl viewControl);
         private void InitQuestion()
-        { 
+        {
+            _stopWatch.Start();
             var random = new Random();
             List<Country> selectedCountries = new List<Country>();
-            selectedCountries = _countries.OrderBy(x=>random.Next()).Take(4).ToList();
+            selectedCountries = _session.CountryList.OrderBy(x=>random.Next()).Take(4).ToList();
             int index = 1;
             Country question = (Country)selectedCountries.OrderBy(x => random.Next()).Take(1).FirstOrDefault();
             lblCountry.Content = question.Name;
@@ -44,30 +58,39 @@ namespace FlagsGame.GUI.View.Views
             }
         }
 
-        private void gameArea_Loaded(object sender, System.Windows.RoutedEventArgs e)
+        private void gameArea_Loaded(object sender, RoutedEventArgs e)
         {
             InitQuestion();
         }
 
-        private void btn_Click(object sender, System.Windows.RoutedEventArgs e)
+        private void btn_Click(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            if(btn.Name.Equals(lblAnswer.Name)){
-                lblCorrect.Content = ++_result.CorrectAnswers;
+
+            if (_result.NumQuestions < 15)
+            {
+                lblCorrect.Content = btn.Name.Equals(lblAnswer.Name) ? ++_result.CorrectAnswers : _result.CorrectAnswers;
+                lblWrong.Content = !btn.Name.Equals(lblAnswer.Name) ? ++_result.WrongAnswers : _result.WrongAnswers;
                 
+                InitQuestion();
             }
             else
             {
-                lblWrong.Content = ++_result.WrongAnswers;
-                
+                _stopWatch.Stop();
+                _result.Time = _stopWatch.Elapsed.Ticks;
+                _session.ResultsList.Add(_result);
+                FinishGame();
             }
-            if(_result.NumQuestions <15)
-                InitQuestion();
         }
 
-        private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)
+        private void FinishGame()
         {
+            _finishGameView.ShowDialog();
+        }
 
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            this.showOption(new GameView(_session));
         }
     }
 }

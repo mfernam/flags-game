@@ -1,8 +1,6 @@
-﻿using System.Globalization;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 using FlagsGame.Core;
-using FlagsGame.GUI.Controller;
 using FlagsGame.GUI.View.Views;
 
 namespace FlagsGame.GUI.View
@@ -19,7 +17,7 @@ namespace FlagsGame.GUI.View
         private AboutView _aboutView = null;
         private ResultsView _resultsView = null;
         private GamePlayView _gamePlayView = null;
-        
+        private FinishGameView _finishGameView = null;
 
         public MainWindow()
         {
@@ -27,11 +25,16 @@ namespace FlagsGame.GUI.View
             _settingsView = new SettingsView(_session);
             _gameView = new GameView(_session);
             _aboutView = new AboutView();
-            _resultsView = new ResultsView();
+            _resultsView = new ResultsView(_session);
+            _gamePlayView = new GamePlayView(_session);
+            _finishGameView = new FinishGameView(_session);
 
+            _finishGameView.showOption += ShowOption;
             _optionsView.showOption += ShowOption;
             _settingsView.showOption += ShowOption;
             _gameView.showOption += ShowOption;
+            _gamePlayView.showOption += ShowOption;
+            _resultsView.showOption += ShowOption;
 
             InitializeComponent();
         }
@@ -61,7 +64,7 @@ namespace FlagsGame.GUI.View
             }
             if (_viewControl.GetType() == typeof(GamePlayView))
             {
-                _gamePlayView = new GamePlayView(_session.CountryList);
+                _gamePlayView = new GamePlayView(_session);
                 _contentControl.Children.Add(_gamePlayView);
             }
         }

@@ -23,7 +23,7 @@ namespace FlagsGame.GUI.View
             _settingsView = new SettingsView(_session);
             _gameView = new GameView(_session);
             _aboutView = new AboutView();
-            _resultsView = new ResultsView();
+            _resultsView = new ResultsView(_session);
             InitializeComponent();
         }
 

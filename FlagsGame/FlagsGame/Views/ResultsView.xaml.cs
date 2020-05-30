@@ -1,15 +1,9 @@
-﻿using System;
+﻿using FlagsGame.Core;
+using FlagsGame.Core.Model;
 using System.Collections.Generic;
-using System.Text;
-using System.Windows;
+using System.IO;
+using System.Text.Json;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace FlagsGame.GUI.View.Views
 {
@@ -18,9 +12,27 @@ namespace FlagsGame.GUI.View.Views
     /// </summary>
     public partial class ResultsView : UserControl
     {
-        public ResultsView()
+        private Session _session = null;
+        private string PATHRESULTS = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\results.json";
+        public event ShowOptionDelegate showOption;
+        public ResultsView(Session session)
         {
+            _session = session;
+            var jsonString = File.ReadAllText(PATHRESULTS, System.Text.Encoding.UTF8);
+            var listResults = JsonSerializer.Deserialize<List<Result>>(jsonString);
+            _session.ResultsList = _session.ResultsList.Count == 0 ? listResults : _session.ResultsList;
+            _session.ResultsList.Sort((a, b) => a.CompareTo(b));
             InitializeComponent();
+        }
+        public delegate void ShowOptionDelegate(UserControl viewControl);
+        private void UserControl_Loaded(object sender, System.Windows.RoutedEventArgs e)
+        {
+            dgResults.ItemsSource = _session.ResultsList;                       
+        }
+
+        private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            showOption(new OptionsView(_session));
         }
     }
 }

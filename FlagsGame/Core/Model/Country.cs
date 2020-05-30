@@ -7,10 +7,10 @@ namespace FlagsGame.Core.Model
         string codCountry = string.Empty;
         string name = string.Empty;
         int population;
-        int area;
+        double area;
         public string CodCountry { get => codCountry; set => codCountry = value; }
         public string Name { get => name; set => name = value; }
         public int Population { get => population; set => population = value; }
-        public int Area { get => area; set => area = value; }
+        public double Area { get => area; set => area = value; }
     }
 }

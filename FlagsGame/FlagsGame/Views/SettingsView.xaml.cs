@@ -31,11 +31,11 @@ namespace FlagsGame.GUI.View.Views
         {
             _session.Mode = (bool)optionCountries.IsChecked ? ModeGame.COUNTRIES : ModeGame.FLAGS;
             _session.Language = cbLanguage.SelectedIndex == 0 ? new CultureInfo("en-US") : new CultureInfo("es-ES");
-
         }
 
         private void btnReset(object sender, System.Windows.RoutedEventArgs e)
         {
+            _session.ResultsList.Clear();
 
         }
     }
