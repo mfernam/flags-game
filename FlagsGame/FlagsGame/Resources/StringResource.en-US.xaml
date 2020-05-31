@@ -30,4 +30,5 @@
     <system:String x:Key="name">Name</system:String>
     <system:String x:Key="back">Back</system:String>
     <system:String x:Key="time">Time</system:String>
+    <system:String x:Key="exit">Exit</system:String>
 </wpf:ResourceDictionary>

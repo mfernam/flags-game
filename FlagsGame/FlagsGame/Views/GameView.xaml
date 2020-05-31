@@ -4,16 +4,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FlagsGame.GUI.View.Views"
-             mc:Ignorable="d" 
-             d:DesignHeight="351.994" d:DesignWidth="613.65">
+             mc:Ignorable="d" Height="327" Width="534">
     <Grid>
-        <Button Content="{DynamicResource africa}" HorizontalAlignment="Left" Margin="108,97,0,0" Name="btnAfrica" VerticalAlignment="Top" Click="btnAfrica_Click" Height="37" Width="90"/>
-        <Button Content="{DynamicResource asia}" HorizontalAlignment="Left" Margin="108,165,0,0" Name="btnAsia" VerticalAlignment="Top" Click="btnAsia_Click" Height="37" Width="90"/>
-        <Button Content="{DynamicResource europe}" HorizontalAlignment="Left" Margin="199,97,0,0" Name="btnEurope" VerticalAlignment="Top" Click="btnEurope_Click" Height="37" Width="90"/>
-        <Button Content="{DynamicResource north_america}" HorizontalAlignment="Left" Margin="292,165,0,0" Name="btnNorthA" VerticalAlignment="Top" Click="btnNorthA_Click" Height="37" Width="90"/>
-        <Button Content="{DynamicResource south_america}" HorizontalAlignment="Left" Margin="292,97,0,0" Name="btnSouthA" VerticalAlignment="Top" Click="btnSouthA_Click" Height="37" Width="90"/>
-        <Button Content="{DynamicResource oceania}" HorizontalAlignment="Left" Margin="199,165,0,0" Name="btnOceania" VerticalAlignment="Top" Click="btnOceania_Click" Height="37" Width="90"/>
-        <Button Content="{DynamicResource all}" HorizontalAlignment="Left" Margin="395,165,0,0" Name="btnAll" VerticalAlignment="Top" Click="btnAll_Click" Height="37" Width="90"/>
+        <Button Content="{DynamicResource africa}" HorizontalAlignment="Left" Margin="108,97,0,0" Name="africa" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click" />
+        <Button Content="{DynamicResource asia}" HorizontalAlignment="Left" Margin="108,165,0,0" Name="asia" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
+        <Button Content="{DynamicResource europe}" HorizontalAlignment="Left" Margin="199,97,0,0" Name="europe" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
+        <Button Content="{DynamicResource north_america}" HorizontalAlignment="Left" Margin="292,165,0,0" Name="north_america" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
+        <Button Content="{DynamicResource south_america}" HorizontalAlignment="Left" Margin="292,97,0,0" Name="south_america" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
+        <Button Content="{DynamicResource oceania}" HorizontalAlignment="Left" Margin="199,165,0,0" Name="oceania" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
+        <Button Content="{DynamicResource all}" HorizontalAlignment="Left" Margin="395,165,0,0" Name="btnAll" VerticalAlignment="Top" Height="37" Width="90" Click="btnAll_Click"/>
+        <Button Content="{DynamicResource back}" HorizontalAlignment="Left" Height="31" Margin="441,256,0,0" VerticalAlignment="Top" Width="44" Name="btnBack" Click="btnBack_Click"/>
 
 
     </Grid>

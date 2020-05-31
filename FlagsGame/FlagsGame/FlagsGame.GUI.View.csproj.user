@@ -13,7 +13,10 @@
     <Compile Update="Views\FinishGameView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\GamePlayView.xaml.cs">
+    <Compile Update="Views\GameCountryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\GameFlagView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\GameView.xaml.cs">
@@ -45,7 +48,10 @@
     <Page Update="Views\FinishGameView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\GamePlayView.xaml">
+    <Page Update="Views\GameCountryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\GameFlagView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\GameView.xaml">

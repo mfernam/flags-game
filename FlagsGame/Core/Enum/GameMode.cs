@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace FlagsGame.Core
 {
-    public enum ModeGame
+    public enum GameMode
     {
         [Description("Countries")]
         COUNTRIES,

@@ -13,7 +13,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class ResultsView : UserControl
     {
         private Session _session = null;
-        private string PATHRESULTS = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\results.json";
+        private string PATHRESULTS = @"Resources\Data\results.json";
         public event ShowOptionDelegate showOption;
         public ResultsView(Session session)
         {
@@ -21,7 +21,7 @@ namespace FlagsGame.GUI.View.Views
             var jsonString = File.ReadAllText(PATHRESULTS, System.Text.Encoding.UTF8);
             var listResults = JsonSerializer.Deserialize<List<Result>>(jsonString);
             _session.ResultsList = _session.ResultsList.Count == 0 ? listResults : _session.ResultsList;
-            _session.ResultsList.Sort((a, b) => a.CompareTo(b));
+            _session.ResultsList.Sort();
             InitializeComponent();
         }
         public delegate void ShowOptionDelegate(UserControl viewControl);

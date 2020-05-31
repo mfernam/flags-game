@@ -10,13 +10,17 @@ namespace FlagsGame.Core.Model
         private int _wrongAnswers = 0;
         private long time;
         private bool current = false;
+        private String _continent = string.Empty;
+        private GameMode? gameMode = null;
         public Result() { }
         public int NumQuestions { get => _correctAnswers+_wrongAnswers; }
         public string Name { get => _name; set => _name = value; }
         public int CorrectAnswers { get => _correctAnswers; set => _correctAnswers = value; }
         public int WrongAnswers { get => _wrongAnswers; set => _wrongAnswers = value; }
         public long Time { get => time; set => time = value; }
-        public bool Current { get => current; set => current = value; }
+        public bool Current { get => Current1; set => Current1 = value; }
+        public string Continent { get => _continent; set => _continent = value; }
+        public bool Current1 { get => current; set => current = value; }
 
         public int CompareTo(object obj)
         {

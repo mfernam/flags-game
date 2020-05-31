@@ -29,7 +29,7 @@ namespace FlagsGame.GUI.View.Views
 
         private void saveChanges()
         {
-            _session.Mode = (bool)optionCountries.IsChecked ? ModeGame.COUNTRIES : ModeGame.FLAGS;
+            _session.Mode = (bool)optionCountries.IsChecked ? GameMode.COUNTRIES : GameMode.FLAGS;
             _session.Language = cbLanguage.SelectedIndex == 0 ? new CultureInfo("en-US") : new CultureInfo("es-ES");
         }
 

@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
         Title="{DynamicResource fun_with_flags}" Height="553" Width="760" Padding="0" Loaded="Window_Loaded">
     <Grid Margin="0,0,0,0">
-        <Image Source="Resources/Images/JFFlogo.jpg"  HorizontalAlignment="Left" Height="95" Margin="127,0,0,0" VerticalAlignment="Top" Width="515"/>
+        <Image  HorizontalAlignment="Left" Height="95" Margin="127,0,0,0" VerticalAlignment="Top" Width="515" Name="imgLogo"/>
         <StackPanel Name="_contentControl" Margin="0,95,0,0"/>
+        <Button Content="{DynamicResource exit}" HorizontalAlignment="Left" Height="32" Margin="687,24,0,0" VerticalAlignment="Top" Width="44" Name="btnExit" Click="btnExit_Click"/>
     </Grid>
 </Window>

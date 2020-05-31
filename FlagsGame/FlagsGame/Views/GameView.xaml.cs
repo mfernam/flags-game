@@ -5,6 +5,8 @@ using FlagsGame.Core.Model;
 using System;
 using System.Collections.Generic;
 using FlagsGame.Core;
+using System.Windows;
+using System.Reflection;
 using System.Linq;
 
 namespace FlagsGame.GUI.View.Views
@@ -15,74 +17,68 @@ namespace FlagsGame.GUI.View.Views
     public partial class GameView : UserControl
     {
         Session _session = null;
-        GamePlayView _gamePlayView = null;
-        static string AFRICA_LOCATION = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\africa.json";
-        static string ASIA_LOCATION = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\asia.json";
-        static string EUROPE_LOCATION = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\europe.json";
-        static string NORTHA_LOCATION = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\northamerica.json";
-        static string SOUTHA_LOCATION = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\southamerica.json";
-        static string OCEANIA_LOCATION = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\oceania.json";
-        static string[] ALL_LOCATION = { AFRICA_LOCATION, ASIA_LOCATION, EUROPE_LOCATION, NORTHA_LOCATION, SOUTHA_LOCATION, OCEANIA_LOCATION };
+        GameFlagView _gamePlayView = null;
+        static string LOCATION = @"Resources\Data\{0}.json";
+        string[] continentList = { "africa","asia","europe","north_america","south_america","oceania"};
 
         public event ShowOptionDelegate showOption;
         public GameView(Session session)
         {
             _session = session;
-            _gamePlayView = new GamePlayView(_session);
+            _gamePlayView = new GameFlagView(_session);
 
             _gamePlayView.showOption += ShowOption;
             InitializeComponent();
         }
         public delegate void ShowOptionDelegate(UserControl viewControl);
-        private void btnAll_Click(object sender, System.Windows.RoutedEventArgs e) {
+        private void btnAll_Click(object sender, RoutedEventArgs e) {
             List<Country> AllCountry = new List<Country>();
-            foreach(string location in ALL_LOCATION)
+            foreach(string location in continentList)
             {
-                AllCountry.AddRange(GetCountries(location));
+                AllCountry.AddRange(GetCountries(string.Format(LOCATION,location)));
             }
             _session.CountryList = AllCountry;
-            showOption(new GamePlayView(_session));
+            AssignContinent("All");
+            if (_session.Mode == GameMode.FLAGS)
+            {
+                showOption(new GameFlagView(_session));
+            }
+            else if (_session.Mode == GameMode.COUNTRIES)
+            {
+                showOption(new GameCountryView(_session));
+            }
         }
 
         private void ShowOption(UserControl _viewControl)
         {
             showOption(new OptionsView(_session));
         }
-
-        private void btnAfrica_Click(object sender, System.Windows.RoutedEventArgs e)
+      
+        private void btnContinent_Click(object sender, RoutedEventArgs e)
         {
-            _session.CountryList= GetCountries(AFRICA_LOCATION);
-            showOption(new GamePlayView(_session));
+            string continent = ((Button)sender).Name;
+            _session.CountryList = GetCountries(String.Format(LOCATION, continent));
+            AssignContinent(CapitalizeContinent(continent));
+            if (_session.Mode == GameMode.FLAGS)
+            {
+                showOption(new GameFlagView(_session));
+            }
+            else if(_session.Mode == GameMode.COUNTRIES)
+            {
+                showOption(new GameCountryView(_session));
+            }
+            
         }
 
-        private void btnAsia_Click(object sender, System.Windows.RoutedEventArgs e)
+        string CapitalizeContinent(string name)
         {
-            _session.CountryList = GetCountries(ASIA_LOCATION);
-            showOption(new GamePlayView(_session));
-        }
-
-        private void btnEurope_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-            _session.CountryList = GetCountries(EUROPE_LOCATION);
-            showOption(new GamePlayView(_session));
-        }
-
-        private void btnNorthA_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-            _session.CountryList = GetCountries(NORTHA_LOCATION);
-            showOption(new GamePlayView(_session));
-        }
-
-        private void btnSouthA_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-            _session.CountryList = GetCountries(SOUTHA_LOCATION);
-            showOption(new GamePlayView(_session));
-        }
-
-        private void btnOceania_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-            _session.CountryList = GetCountries(OCEANIA_LOCATION);
-            showOption(new GamePlayView(_session));
+            string nameCapitalized = string.Empty;
+            var nameComplex = name.Split('_');
+            nameCapitalized = nameComplex.Count() > 1 ?
+                string.Format("{0} {1}", 
+                    nameComplex[0].Substring(0, 1).ToUpper()+ nameComplex[0].Substring(0, 1), nameComplex[1].Substring(1).ToUpper())+ nameComplex[1].Substring(1) :
+                name.Substring(0, 1).ToUpper()+ name.Substring(1);
+            return nameCapitalized;
         }
 
         private List<Country> GetCountries(string continent)
@@ -90,5 +86,19 @@ namespace FlagsGame.GUI.View.Views
             var jsonString = File.ReadAllText(continent, System.Text.Encoding.UTF8);
             return JsonSerializer.Deserialize<List<Country>>(jsonString);
         }
+
+        private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            showOption(new OptionsView(_session));
+        }
+
+        private void AssignContinent(string continent)
+        {
+            foreach(Country country in _session.CountryList)
+            {
+                country.Continent = continent;
+            }
+        }
+
     }
 }

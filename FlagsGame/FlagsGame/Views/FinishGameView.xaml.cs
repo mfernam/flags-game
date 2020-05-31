@@ -1,6 +1,4 @@
 ﻿using FlagsGame.Core;
-using FlagsGame.Core.Model;
-using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Windows;
@@ -14,7 +12,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class FinishGameView : Window
     {
         Session _session = null;
-        private string PATHJSON = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\results.json";
+        private string PATHJSON = @"Resources\Data\results.json";
         public event ShowOptionDelegate showOption;
         public FinishGameView(Session session)
         {
@@ -29,6 +27,7 @@ namespace FlagsGame.GUI.View.Views
             _session.ResultsList.ForEach(x => x.Current = false);
             var jsonResults = JsonSerializer.Serialize(_session.ResultsList);
             File.WriteAllText(PATHJSON, jsonResults);
+            showOption(new ResultsView(_session));
             this.Close();
         }
     }

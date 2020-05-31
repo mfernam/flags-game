@@ -30,4 +30,5 @@
     <system:String x:Key="name">Nombre</system:String>
     <system:String x:Key="back">Volver</system:String>
     <system:String x:Key="time">Tiempo</system:String>
+    <system:String x:Key="exit">Salir</system:String>
 </ResourceDictionary>

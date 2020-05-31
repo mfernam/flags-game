@@ -31,7 +31,7 @@ namespace FlagsGame.Core
                 _language = value;
             }
     }
-        public ModeGame Mode { get; set; } = ModeGame.COUNTRIES;
+        public GameMode Mode { get; set; } = GameMode.FLAGS;
         public List<Country> CountryList { get => _countryList; set => _countryList = value; }
         public List<Result> ResultsList { get => _resultsList; set => _resultsList = value; }
     }

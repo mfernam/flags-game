@@ -2,29 +2,28 @@
 using FlagsGame.Core.Model;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text.Json;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using System.Diagnostics;
-using System.Threading;
 using System.Windows;
 
 namespace FlagsGame.GUI.View.Views
 {
     /// <summary>
-    /// Lógica de interacción para GamePlayView.xaml
+    /// Lógica de interacción para GameFlagView.xaml
     /// </summary>
-    public partial class GamePlayView : UserControl
+    public partial class GameFlagView : UserControl
     {
         Session _session = null;
         Label lblAnswer = null;
         Result _result = null;
         Stopwatch _stopWatch = null;
         FinishGameView _finishGameView = null;
+        string LOCATION_IMG = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Images\{0}.png";
+
         public event ShowOptionDelegate showOption;
-        public GamePlayView(Session session)
+        public GameFlagView(Session session)
         {
             _result = new Result();
             _result.Current = true;
@@ -46,13 +45,13 @@ namespace FlagsGame.GUI.View.Views
             lblCountry.Content = question.Name;
             lblAnswer = new Label();
             lblAnswer.Name = question.CodCountry;
-            lblAnswer.Visibility = System.Windows.Visibility.Hidden;
+            lblAnswer.Visibility = Visibility.Hidden;
             foreach (Country country in selectedCountries)
             {
                 Button btn = (Button)gameArea.FindName("btn" + index);
                 btn.Name = country.CodCountry;
                 Image img = (Image)gameArea.FindName("img" + index);
-                var uri = String.Format(@"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Images\{0}.png", country.CodCountry);
+                var uri = String.Format(LOCATION_IMG, country.CodCountry);
                 img.Source = new BitmapImage(new Uri(uri));
                 index++;
             }
@@ -60,6 +59,7 @@ namespace FlagsGame.GUI.View.Views
 
         private void gameArea_Loaded(object sender, RoutedEventArgs e)
         {
+            _result.Continent = _session.CountryList[0].Continent;
             InitQuestion();
         }
 
@@ -83,8 +83,13 @@ namespace FlagsGame.GUI.View.Views
             }
         }
 
-        private void FinishGame()
+        void ShowResults(UserControl viewControl)
         {
+            showOption(new ResultsView(_session));
+        }
+        private void FinishGame()
+        {            
+            _finishGameView.showOption += ShowResults;
             _finishGameView.ShowDialog();
         }
 

@@ -13,6 +13,7 @@
                 <DataGridTextColumn Binding="{Binding CorrectAnswers}" Header="{DynamicResource correct}"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding WrongAnswers}" Header="{DynamicResource wrong}"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding Time}" Header="{DynamicResource time}"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Continent}" Header="{DynamicResource continent}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
         <Button Content="{DynamicResource back}" HorizontalAlignment="Left" Height="39" Margin="480,319,0,0" VerticalAlignment="Top" Width="90" Name="btnBack" Click="btnBack_Click"/>

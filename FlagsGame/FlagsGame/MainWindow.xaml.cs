@@ -1,5 +1,7 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 using FlagsGame.Core;
 using FlagsGame.GUI.View.Views;
 
@@ -16,8 +18,10 @@ namespace FlagsGame.GUI.View
         private SettingsView _settingsView = null;
         private AboutView _aboutView = null;
         private ResultsView _resultsView = null;
-        private GamePlayView _gamePlayView = null;
+        private GameFlagView _gameFlagsView = null;
         private FinishGameView _finishGameView = null;
+        private GameCountryView _gameCountryView = null;
+        string LOCATION_LOGO = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Images\JFFlogo.jpg";
 
         public MainWindow()
         {
@@ -26,14 +30,12 @@ namespace FlagsGame.GUI.View
             _gameView = new GameView(_session);
             _aboutView = new AboutView();
             _resultsView = new ResultsView(_session);
-            _gamePlayView = new GamePlayView(_session);
             _finishGameView = new FinishGameView(_session);
 
             _finishGameView.showOption += ShowOption;
             _optionsView.showOption += ShowOption;
             _settingsView.showOption += ShowOption;
             _gameView.showOption += ShowOption;
-            _gamePlayView.showOption += ShowOption;
             _resultsView.showOption += ShowOption;
 
             InitializeComponent();
@@ -62,16 +64,29 @@ namespace FlagsGame.GUI.View
             {
                 _contentControl.Children.Add(_resultsView);
             }
-            if (_viewControl.GetType() == typeof(GamePlayView))
+            if (_viewControl.GetType() == typeof(GameFlagView))
             {
-                _gamePlayView = new GamePlayView(_session);
-                _contentControl.Children.Add(_gamePlayView);
+                _gameFlagsView = new GameFlagView(_session);
+                _gameFlagsView.showOption += ShowOption;
+                _contentControl.Children.Add(_gameFlagsView);
+            }
+            if(_viewControl.GetType() == typeof(GameCountryView))
+            {
+                _gameCountryView = new GameCountryView(_session);
+                _gameCountryView.showOption += ShowOption;
+                _contentControl.Children.Add(_gameCountryView);
             }
         }
 
         void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            imgLogo.Source = new BitmapImage(new Uri(LOCATION_LOGO));
             _contentControl.Children.Add(_optionsView);
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

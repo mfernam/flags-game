@@ -9,5 +9,7 @@
                 <ResourceDictionary Source="Resources/StringResource.en-US.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
+        
+        
     </Application.Resources>
 </Application>
