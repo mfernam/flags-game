@@ -13,25 +13,22 @@ namespace FlagsGame.GUI.View.Views
     public partial class ResultsView : UserControl
     {
         private Session _session = null;
-        private string PATHRESULTS = @"Resources\Data\results.json";
+        private string PATHRESULTS = @"Resources/Data/results.json";
         public event ShowOptionDelegate showOption;
         public ResultsView(Session session)
         {
             _session = session;
             var jsonString = File.ReadAllText(PATHRESULTS, System.Text.Encoding.UTF8);
             var listResults = JsonSerializer.Deserialize<List<Result>>(jsonString);
-            _session.ResultsList = _session.ResultsList.Count == 0 ? listResults : _session.ResultsList;
+            _session.ResultsList = listResults;
             _session.ResultsList.Sort();
             InitializeComponent();
         }
         public delegate void ShowOptionDelegate(UserControl viewControl);
         private void UserControl_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            dgResults.ItemsSource = _session.ResultsList;         
-            foreach(Result result in _session.ResultsList)
-            {
-                DataGridTextColumn dgtcTime = new DataGridTextColumn();                
-            }
+            dgResults.ItemsSource = null;
+            dgResults.ItemsSource = _session.ResultsList;  
         }
 
         private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)

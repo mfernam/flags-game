@@ -13,7 +13,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class SettingsView : UserControl
     {
         Session _session = null;
-        private string PATHRESULTS = @"Resources\Data\results.json";
+        private string PATHRESULTS = Directory.GetCurrentDirectory() + @"Data/results.json";
 
         public event ShowOptionDelegate showOption;
         public SettingsView(Session session)
@@ -36,13 +36,11 @@ namespace FlagsGame.GUI.View.Views
             _session.Language = cbLanguage.SelectedIndex == 0 ? new CultureInfo("en-US") : new CultureInfo("es-ES");
         }
 
-        private void btnReset(object sender, System.Windows.RoutedEventArgs e)
+        private void btnReset(object sender, RoutedEventArgs e)
         {
-            _session.ResultsList.Clear();
             var jsonResults = JsonSerializer.Serialize(_session.ResultsList);
             File.WriteAllText(PATHRESULTS, jsonResults);
-
-
+            _session.ResultsList.Clear();
         }
     }
 }

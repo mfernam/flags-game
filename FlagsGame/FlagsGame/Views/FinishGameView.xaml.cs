@@ -12,7 +12,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class FinishGameView : Window
     {
         Session _session = null;
-        private string PATHJSON = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\results.json";
+        private string PATHJSON = @"Resources/Data/results.json";
         public event ShowOptionDelegate showOption;
         public FinishGameView(Session session)
         {

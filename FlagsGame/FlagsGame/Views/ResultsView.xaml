@@ -12,7 +12,7 @@
                 <DataGridTextColumn Binding="{Binding Name}" Header="{DynamicResource name}"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding CorrectAnswers}" Header="{DynamicResource correct}"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding WrongAnswers}" Header="{DynamicResource wrong}"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Time}" Header="{DynamicResource time}"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Time, StringFormat='##.###'}" Header="{DynamicResource time}"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding Continent}" Header="{DynamicResource continent}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>

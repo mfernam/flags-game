@@ -34,11 +34,11 @@ namespace FlagsGame.Core.Model
             }
             
             else {
-                if (this.Time < result.Time)
+                if (this.Time > result.Time)
                 {
                     return 1;
                 }
-                else if (this.Time < result.time)
+                else if (this.Time > result.time)
                 {
                     return -1;
                 }
