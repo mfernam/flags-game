@@ -27,7 +27,11 @@ namespace FlagsGame.GUI.View.Views
         public delegate void ShowOptionDelegate(UserControl viewControl);
         private void UserControl_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            dgResults.ItemsSource = _session.ResultsList;                       
+            dgResults.ItemsSource = _session.ResultsList;         
+            foreach(Result result in _session.ResultsList)
+            {
+                DataGridTextColumn dgtcTime = new DataGridTextColumn();                
+            }
         }
 
         private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)

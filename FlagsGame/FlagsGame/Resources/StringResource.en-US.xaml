@@ -13,6 +13,7 @@
     <system:String x:Key="select_language">Select language</system:String>
     <system:String x:Key="reset_scores">Reset scores</system:String>
     <system:String x:Key="mode_game">Game mode</system:String>
+    <system:String x:Key="select_game">Select game</system:String>
     <system:String x:Key="accept">Accept</system:String>
     <system:String x:Key="english">English</system:String>
     <system:String x:Key="spanish">Spanish</system:String>
@@ -31,4 +32,6 @@
     <system:String x:Key="back">Back</system:String>
     <system:String x:Key="time">Time</system:String>
     <system:String x:Key="exit">Exit</system:String>
+    <system:String x:Key="competititon">Competititon</system:String>
+    <system:String x:Key="trainning">Trainning</system:String>
 </wpf:ResourceDictionary>

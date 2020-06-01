@@ -76,7 +76,7 @@ namespace FlagsGame.GUI.View.Views
             var nameComplex = name.Split('_');
             nameCapitalized = nameComplex.Count() > 1 ?
                 string.Format("{0} {1}", 
-                    nameComplex[0].Substring(0, 1).ToUpper()+ nameComplex[0].Substring(0, 1), nameComplex[1].Substring(1).ToUpper())+ nameComplex[1].Substring(1) :
+                    nameComplex[0].Substring(0, 1).ToUpper()+ nameComplex[0].Substring(1), nameComplex[1].Substring(0,1).ToUpper())+ nameComplex[1].Substring(1) :
                 name.Substring(0, 1).ToUpper()+ name.Substring(1);
             return nameCapitalized;
         }

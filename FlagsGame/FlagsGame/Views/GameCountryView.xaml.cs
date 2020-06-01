@@ -78,7 +78,7 @@ namespace FlagsGame.GUI.View.Views
             else
             {
                 _stopWatch.Stop();
-                _result.Time = _stopWatch.Elapsed.Ticks;
+                _result.Time = _stopWatch.Elapsed.TotalMinutes;
                 _session.ResultsList.Add(_result);
                 FinishGame();
             }

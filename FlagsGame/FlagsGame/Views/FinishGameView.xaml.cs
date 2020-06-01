@@ -12,7 +12,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class FinishGameView : Window
     {
         Session _session = null;
-        private string PATHJSON = @"Resources\Data\results.json";
+        private string PATHJSON = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Data\results.json";
         public event ShowOptionDelegate showOption;
         public FinishGameView(Session session)
         {
@@ -23,12 +23,32 @@ namespace FlagsGame.GUI.View.Views
         public delegate void ShowOptionDelegate(UserControl viewControl);
         private void btnAccept_Click(object sender, RoutedEventArgs e)
         {
-            _session.ResultsList.Find(x => x.Current).Name = txtName.Text;
+            var current = _session.ResultsList.Find(x => x.Current);
+            current.Name = txtName.Text;
             _session.ResultsList.ForEach(x => x.Current = false);
-            var jsonResults = JsonSerializer.Serialize(_session.ResultsList);
-            File.WriteAllText(PATHJSON, jsonResults);
-            showOption(new ResultsView(_session));
+
+            if (!_session.IsTrainning)
+            {
+                var jsonResults = JsonSerializer.Serialize(_session.ResultsList);
+                File.WriteAllText(PATHJSON, jsonResults);
+                showOption(new ResultsView(_session));
+            }
+            else
+            {
+                _session.ResultsList.Remove(current);
+                showOption(new OptionsView(_session));
+            }
+            
             this.Close();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (_session.IsTrainning)
+            {
+                txtName.Visibility = Visibility.Hidden;
+                lblName.Visibility = Visibility.Hidden;
+            }
         }
     }
 }

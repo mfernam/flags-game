@@ -12,6 +12,7 @@ namespace FlagsGame.GUI.View
     {
         Session _session = null;
         GameView _gameView = null;
+        SelectionGameView _selectionGameView = null;
         SettingsView _settingsView = null;
         AboutView _aboutView = null;
         ResultsView _resultsView = null;
@@ -21,7 +22,6 @@ namespace FlagsGame.GUI.View
         {
             this._session = session;
             _settingsView = new SettingsView(_session);
-            _gameView = new GameView(_session);
             _aboutView = new AboutView();
             _resultsView = new ResultsView(_session);
             InitializeComponent();
@@ -34,10 +34,15 @@ namespace FlagsGame.GUI.View
         {            
             showOption(_settingsView);
         }
-
+        void ShowResults(UserControl viewControl)
+        {
+            showOption(new GameView(_session));
+        }
         private void btnPlay_Click(object sender, RoutedEventArgs e)
         {
-            showOption(_gameView);
+            _selectionGameView = new SelectionGameView(_session);
+            _selectionGameView.showOption += ShowResults;
+            _selectionGameView.ShowDialog();
         }
 
         private void btnHelp_Click(object sender, RoutedEventArgs e)

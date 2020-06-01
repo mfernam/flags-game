@@ -13,6 +13,7 @@
     <system:String x:Key="select_language">Seleccione idioma</system:String>
     <system:String x:Key="reset_scores">Borrar resultados</system:String>
     <system:String x:Key="mode_game">Modo de juego</system:String>
+    <system:String x:Key="select_game">Seleccione juego</system:String>
     <system:String x:Key="accept">Aceptar</system:String>
     <system:String x:Key="english">Inglés</system:String>
     <system:String x:Key="spanish">Español</system:String>
@@ -31,4 +32,6 @@
     <system:String x:Key="back">Volver</system:String>
     <system:String x:Key="time">Tiempo</system:String>
     <system:String x:Key="exit">Salir</system:String>
+    <system:String x:Key="competititon">Campeonato</system:String>
+    <system:String x:Key="trainning">Entrenamiento</system:String>
 </ResourceDictionary>

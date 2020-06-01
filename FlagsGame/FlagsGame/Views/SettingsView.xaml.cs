@@ -1,5 +1,7 @@
 ﻿using FlagsGame.Core;
 using System.Globalization;
+using System.IO;
+using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -11,6 +13,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class SettingsView : UserControl
     {
         Session _session = null;
+        private string PATHRESULTS = @"Resources\Data\results.json";
 
         public event ShowOptionDelegate showOption;
         public SettingsView(Session session)
@@ -36,6 +39,9 @@ namespace FlagsGame.GUI.View.Views
         private void btnReset(object sender, System.Windows.RoutedEventArgs e)
         {
             _session.ResultsList.Clear();
+            var jsonResults = JsonSerializer.Serialize(_session.ResultsList);
+            File.WriteAllText(PATHRESULTS, jsonResults);
+
 
         }
     }

@@ -12,7 +12,7 @@ namespace FlagsGame.Core
 
         private List<Country> _countryList = new List<Country>();
         private List<Result> _resultsList = new List<Result>();
-
+        private bool _isTrainning = false;
         static Session(){}
 
         private Session() { }
@@ -34,5 +34,6 @@ namespace FlagsGame.Core
         public GameMode Mode { get; set; } = GameMode.FLAGS;
         public List<Country> CountryList { get => _countryList; set => _countryList = value; }
         public List<Result> ResultsList { get => _resultsList; set => _resultsList = value; }
+        public bool IsTrainning { get => _isTrainning; set => _isTrainning = value; }
     }
 }

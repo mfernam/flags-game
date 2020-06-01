@@ -77,7 +77,7 @@ namespace FlagsGame.GUI.View.Views
             else
             {
                 _stopWatch.Stop();
-                _result.Time = _stopWatch.Elapsed.Ticks;
+                _result.Time = _stopWatch.Elapsed.TotalMinutes;
                 _session.ResultsList.Add(_result);
                 FinishGame();
             }
@@ -85,7 +85,15 @@ namespace FlagsGame.GUI.View.Views
 
         void ShowResults(UserControl viewControl)
         {
-            showOption(new ResultsView(_session));
+            if (viewControl.GetType() == typeof(OptionsView))
+            {
+                showOption(new OptionsView(_session));
+            }
+            if (viewControl.GetType() == typeof(ResultsView))
+            {
+                showOption(new ResultsView(_session));
+            }
+            
         }
         private void FinishGame()
         {            

@@ -21,7 +21,8 @@ namespace FlagsGame.GUI.View
         private GameFlagView _gameFlagsView = null;
         private FinishGameView _finishGameView = null;
         private GameCountryView _gameCountryView = null;
-        string LOCATION_LOGO = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Images\JFFlogo.jpg";
+        private SelectionGameView _selectionGameView = null;
+        private readonly string LOCATION_LOGO = @"C:\projects\flags-game\FlagsGame\FlagsGame\Resources\Images\JFFlogo.jpg";
 
         public MainWindow()
         {
@@ -31,7 +32,10 @@ namespace FlagsGame.GUI.View
             _aboutView = new AboutView();
             _resultsView = new ResultsView(_session);
             _finishGameView = new FinishGameView(_session);
+            _selectionGameView = new SelectionGameView(_session);
 
+
+            _selectionGameView.showOption += ShowOption;
             _finishGameView.showOption += ShowOption;
             _optionsView.showOption += ShowOption;
             _settingsView.showOption += ShowOption;
