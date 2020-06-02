@@ -1,5 +1,5 @@
-FlagsGame/FlagsGame/obj/**
-FlagsGame/FlagsGame/bin/**
-FlagsGame/Core/obj/**
-FlagsGame/Core/bin/**
+FlagsGame/FlagsGame.GUI.View/obj/**
+FlagsGame/FlagsGame.GUI.View/bin/**
+FlagsGame/FlagsGame.Core/obj/**
+FlagsGame/FlagsGame.Core/bin/**
 FlagsGame/.vs/**

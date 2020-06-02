@@ -13,7 +13,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class SettingsView : UserControl
     {
         Session _session = null;
-        private string PATHRESULTS = @"Resources\Data\results.json";
+        private string PATHRESULTS = @"C:\projects\flags-game\FlagsGame\FlagsGame.GUI.View\Resources\Data\results.json";
 
         public event ShowOptionDelegate showOption;
         public SettingsView(Session session)

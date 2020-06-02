@@ -13,7 +13,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class ResultsView : UserControl
     {
         private Session _session = null;
-        private string PATHRESULTS = @"Resources\Data\results.json";
+        private string PATHRESULTS = @"C:\projects\flags-game\FlagsGame\FlagsGame.GUI.View\Resources\Data\results.json";
         public event ShowOptionDelegate showOption;
         public ResultsView(Session session)
         {
@@ -34,6 +34,12 @@ namespace FlagsGame.GUI.View.Views
         private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             showOption(new OptionsView(_session));
+        }
+
+        private void dgResults_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            dgResults.ItemsSource = null;
+            dgResults.ItemsSource = _session.ResultsList;
         }
     }
 }
