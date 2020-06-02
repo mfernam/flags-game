@@ -1,7 +1,9 @@
 ﻿using FlagsGame.Core;
+using System;
 using System.Globalization;
 using System.IO;
 using System.Text.Json;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -34,6 +36,16 @@ namespace FlagsGame.GUI.View.Views
         {
             _session.Mode = (bool)optionCountries.IsChecked ? GameMode.COUNTRIES : GameMode.FLAGS;
             _session.Language = cbLanguage.SelectedIndex == 0 ? new CultureInfo("en-US") : new CultureInfo("es-ES");
+            
+            var language = _session.Language.Name=="es-ES" ?
+                Application.Current.Resources.MergedDictionaries[1]:
+                Application.Current.Resources.MergedDictionaries[0];
+
+            Application.Current.Resources.MergedDictionaries.Add(language);
+            if (!CultureInfo.CurrentCulture.Name.Equals(_session.Language))
+            {
+                Thread.CurrentThread.CurrentCulture = _session.Language;
+            }
         }
 
         private void btnReset(object sender, RoutedEventArgs e)
@@ -49,5 +61,6 @@ namespace FlagsGame.GUI.View.Views
             optionCountries.IsChecked = _session.Mode == GameMode.COUNTRIES;
             cbLanguage.SelectedIndex = _session.Language == CultureInfo.GetCultureInfo("en-US") ? 0 : 1;
         }
+
     }
 }

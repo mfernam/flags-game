@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using System.Globalization;
+using System;
 using System.Threading;
+using System.IO;
 
 namespace FlagsGame.GUI.View
 {
@@ -11,7 +13,6 @@ namespace FlagsGame.GUI.View
     {
         App()
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-ES");
         }
     }
 }

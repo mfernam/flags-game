@@ -6,10 +6,9 @@
         
         <ResourceDictionary >
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/StringResource.xaml" />
                 <ResourceDictionary Source="Resources/StringResource.en-US.xaml" />
+                <ResourceDictionary Source="Resources/StringResource.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <BitmapImage UriSource="Resources\Images\{0}.png" x:Key="flagImage"></BitmapImage>
         </ResourceDictionary>
         
         
