@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FlagsGame.GUI.View/1.0.0": {
+        "dependencies": {
+          "FlagsGame.Core": "1.0.0"
+        },
+        "runtime": {
+          "FlagsGame.GUI.View.dll": {}
+        }
+      },
+      "FlagsGame.Core/1.0.0": {
+        "runtime": {
+          "FlagsGame.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlagsGame.GUI.View/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlagsGame.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

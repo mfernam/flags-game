@@ -1,9 +1,0 @@
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\bin\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.deps.json
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\bin\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.dll
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\bin\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.pdb
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\obj\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.csprojAssemblyReference.cache
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\obj\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.csproj.CoreCompileInputs.cache
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\obj\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.AssemblyInfoInputs.cache
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\obj\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.AssemblyInfo.cs
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\obj\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.dll
-C:\projects\flags-game\FlagsGame\FlagsGame.GUI.Controller\obj\Debug\netcoreapp3.1\FlagsGame.GUI.Controller.pdb

@@ -1,0 +1,326 @@
+﻿[
+  {
+    "CodCountry": "ax",
+    "Name": "Åland Islands",
+    "Population": 29789,
+    "Area": 1580
+  },
+  {
+    "CodCountry": "al",
+    "Name": "Albania",
+    "Population": 2862427,
+    "Area": 28748
+  },
+  {
+    "CodCountry": "ad",
+    "Name": "Andorra",
+    "Population": 77543,
+    "Area": 468
+  },
+  {
+    "CodCountry": "at",
+    "Name": "Austria",
+    "Population": 8902600,
+    "Area": 83871
+  },
+  {
+    "CodCountry": "by",
+    "Name": "Belarus",
+    "Population": 9413446,
+    "Area": 207600
+  },
+  {
+    "CodCountry": "be",
+    "Name": "Belgium",
+    "Population": 11522169,
+    "Area": 30528
+  },
+  {
+    "CodCountry": "ba",
+    "Name": "Bosnia and Herzegovina",
+    "Population": 3301000,
+    "Area": 51209
+  },
+  {
+    "CodCountry": "bg",
+    "Name": "Bulgaria",
+    "Population": 7000039,
+    "Area": 111002
+  },
+  {
+    "CodCountry": "hr",
+    "Name": "Croatia",
+    "Population": 4076246,
+    "Area": 56594
+  },
+  {
+    "CodCountry": "cy",
+    "Name": "Cyprus",
+    "Population": 875900,
+    "Area": 9251
+  },
+  {
+    "CodCountry": "cz",
+    "Name": "Czechia",
+    "Population": 10681161,
+    "Area": 78865
+  },
+  {
+    "CodCountry": "dk",
+    "Name": "Denmark",
+    "Population": 5822763,
+    "Area": 43094
+  },
+  {
+    "CodCountry": "ee",
+    "Name": "Estonia",
+    "Population": 1328360,
+    "Area": 45227
+  },
+  {
+    "CodCountry": "fo",
+    "Name": "Faroe Islands",
+    "Population": 52124,
+    "Area": 1393
+  },
+  {
+    "CodCountry": "fi",
+    "Name": "Finland",
+    "Population": 5527573,
+    "Area": 338424
+  },
+  {
+    "CodCountry": "fr",
+    "Name": "France",
+    "Population": 67064000,
+    "Area": 640679
+  },
+  {
+    "CodCountry": "de",
+    "Name": "Germany",
+    "Population": 83149300,
+    "Area": 357114
+  },
+  {
+    "CodCountry": "gi",
+    "Name": "Gibraltar",
+    "Population": 33701,
+    "Area": 6
+  },
+  {
+    "CodCountry": "gr",
+    "Name": "Greece",
+    "Population": 10724599,
+    "Area": 131957
+  },
+  {
+    "CodCountry": "gg",
+    "Name": "Guernsey",
+    "Population": 62792,
+    "Area": 78
+  },
+  {
+    "CodCountry": "hu",
+    "Name": "Hungary",
+    "Population": 9772756,
+    "Area": 93028
+  },
+  {
+    "CodCountry": "is",
+    "Name": "Iceland",
+    "Population": 364260,
+    "Area": 103000
+  },
+  {
+    "CodCountry": "ie",
+    "Name": "Ireland",
+    "Population": 4921500,
+    "Area": 70273
+  },
+  {
+    "CodCountry": "im",
+    "Name": "Isle of Man",
+    "Population": 83314,
+    "Area": 572
+  },
+  {
+    "CodCountry": "it",
+    "Name": "Italy",
+    "Population": 60247214,
+    "Area": 301339
+  },
+  {
+    "CodCountry": "je",
+    "Name": "Jersey",
+    "Population": 106800,
+    "Area": 116
+  },
+  {
+    "CodCountry": "xk",
+    "Name": "Kosovo",
+    "Population": 1795666,
+    "Area": 10887
+  },
+  {
+    "CodCountry": "lv",
+    "Name": "Latvia",
+    "Population": 1906800,
+    "Area": 64559
+  },
+  {
+    "CodCountry": "li",
+    "Name": "Liechtenstein",
+    "Population": 38557,
+    "Area": 160
+  },
+  {
+    "CodCountry": "lt",
+    "Name": "Lithuania",
+    "Population": 2793350,
+    "Area": 65300
+  },
+  {
+    "CodCountry": "lu",
+    "Name": "Luxembourg",
+    "Population": 613894,
+    "Area": 2586
+  },
+  {
+    "CodCountry": "mt",
+    "Name": "Malta",
+    "Population": 493559,
+    "Area": 316
+  },
+  {
+    "CodCountry": "md",
+    "Name": "Moldova",
+    "Population": 2681735,
+    "Area": 33846
+  },
+  {
+    "CodCountry": "mc",
+    "Name": "Monaco",
+    "Population": 38300,
+    "Area": 2.02
+  },
+  {
+    "CodCountry": "me",
+    "Name": "Montenegro",
+    "Population": 622359,
+    "Area": 13812
+  },
+  {
+    "CodCountry": "nl",
+    "Name": "Netherlands",
+    "Population": 17438081,
+    "Area": 41850
+  },
+  {
+    "CodCountry": "mk",
+    "Name": "North Macedonia",
+    "Population": 2077132,
+    "Area": 25713
+  },
+  {
+    "CodCountry": "no",
+    "Name": "Norway",
+    "Population": 5356789,
+    "Area": 323802
+  },
+  {
+    "CodCountry": "pl",
+    "Name": "Poland",
+    "Population": 38386000,
+    "Area": 312696
+  },
+  {
+    "CodCountry": "pt",
+    "Name": "Portugal",
+    "Population": 10276617,
+    "Area": 92090
+  },
+  {
+    "CodCountry": "ro",
+    "Name": "Romania",
+    "Population": 19405156,
+    "Area": 238397
+  },
+  {
+    "CodCountry": "ru",
+    "Name": "Russia",
+    "Population": 146780720,
+    "Area": 17098200
+  },
+  {
+    "CodCountry": "sm",
+    "Name": "San Marino",
+    "Population": 33574,
+    "Area": 61
+  },
+  {
+    "CodCountry": "rs",
+    "Name": "Serbia",
+    "Population": 6963764,
+    "Area": 88361
+  },
+  {
+    "CodCountry": "sk",
+    "Name": "Slovakia",
+    "Population": 5456362,
+    "Area": 49037
+  },
+  {
+    "CodCountry": "si",
+    "Name": "Slovenia",
+    "Population": 2094060,
+    "Area": 20273
+  },
+  {
+    "CodCountry": "es",
+    "Name": "Spain",
+    "Population": 47100396,
+    "Area": 505992
+  },
+  {
+    "CodCountry": "sj",
+    "Name": "Svalbard and Jan Mayen",
+    "Population": 0,
+    "Area": 61022
+  },
+  {
+    "CodCountry": "se",
+    "Name": "Sweden",
+    "Population": 10327589,
+    "Area": 450295
+  },
+  {
+    "CodCountry": "ch",
+    "Name": "Switzerland",
+    "Population": 8586550,
+    "Area": 41284
+  },
+  {
+    "CodCountry": "tr",
+    "Name": "Turkey",
+    "Population": 83154997,
+    "Area": 783562
+  },
+  {
+    "CodCountry": "ua",
+    "Name": "Ukraine",
+    "Population": 41902416,
+    "Area": 603500
+  },
+  {
+    "CodCountry": "gb",
+    "Name": "United Kingdom",
+    "Population": 66435600,
+    "Area": 242495
+  },
+  {
+    "CodCountry": "va",
+    "Name": "Vatican City",
+    "Population": 799,
+    "Area": 0.44
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FlagsGame.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FlagsGame.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlagsGame.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlagsGame.Core/1.0.0": {
+      "type": "project",
+      "path": "../FlagsGame.Core/FlagsGame.Core.csproj",
+      "msbuildProject": "../FlagsGame.Core/FlagsGame.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "FlagsGame.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\miguel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\projects\\flags-game\\FlagsGame\\FlagsGame.GUI.View\\FlagsGame.GUI.View.csproj",
+      "projectName": "FlagsGame.GUI.View",
+      "projectPath": "C:\\projects\\flags-game\\FlagsGame\\FlagsGame.GUI.View\\FlagsGame.GUI.View.csproj",
+      "packagesPath": "C:\\Users\\miguel\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\flags-game\\FlagsGame\\FlagsGame.GUI.View\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\projects\\flags-game\\FlagsGame\\FlagsGame.Core\\FlagsGame.Core.csproj": {
+              "projectPath": "C:\\projects\\flags-game\\FlagsGame\\FlagsGame.Core\\FlagsGame.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

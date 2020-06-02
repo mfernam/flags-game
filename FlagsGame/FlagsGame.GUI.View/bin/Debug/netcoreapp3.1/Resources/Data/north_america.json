@@ -1,0 +1,248 @@
+﻿[
+  {
+    "CodCountry": "ai",
+    "Name": "Anguilla",
+    "Population": 14869,
+    "Area": 91
+  },
+  {
+    "CodCountry": "ag",
+    "Name": "Antigua and Barbuda",
+    "Population": 96453,
+    "Area": 442
+  },
+  {
+    "CodCountry": "aw",
+    "Name": "Aruba",
+    "Population": 112309,
+    "Area": 180
+  },
+  {
+    "CodCountry": "bs",
+    "Name": "Bahamas",
+    "Population": 385340,
+    "Area": 13943
+  },
+  {
+    "CodCountry": "bb",
+    "Name": "Barbados",
+    "Population": 287025,
+    "Area": 430
+  },
+  {
+    "CodCountry": "bz",
+    "Name": "Belize",
+    "Population": 408487,
+    "Area": 22966
+  },
+  {
+    "CodCountry": "bm",
+    "Name": "Bermuda",
+    "Population": 64027,
+    "Area": 54
+  },
+  {
+    "CodCountry": "ca",
+    "Name": "Canada",
+    "Population": 37935814,
+    "Area": 9984670
+  },
+  {
+    "CodCountry": "bq",
+    "Name": "Caribbean Netherlands",
+    "Population": 25157,
+    "Area": 328
+  },
+  {
+    "CodCountry": "ky",
+    "Name": "Cayman Islands",
+    "Population": 65813,
+    "Area": 264
+  },
+  {
+    "CodCountry": "cr",
+    "Name": "Costa Rica",
+    "Population": 5058007,
+    "Area": 51100
+  },
+  {
+    "CodCountry": "cu",
+    "Name": "Cuba",
+    "Population": 11209628,
+    "Area": 109884
+  },
+  {
+    "CodCountry": "cw",
+    "Name": "Curaçao",
+    "Population": 158665,
+    "Area": 444
+  },
+  {
+    "CodCountry": "dm",
+    "Name": "Dominica",
+    "Population": 71808,
+    "Area": 751
+  },
+  {
+    "CodCountry": "do",
+    "Name": "Dominican Republic",
+    "Population": 10358320,
+    "Area": 48671
+  },
+  {
+    "CodCountry": "sv",
+    "Name": "El Salvador",
+    "Population": 6704864,
+    "Area": 21041
+  },
+  {
+    "CodCountry": "gl",
+    "Name": "Greenland",
+    "Population": 56081,
+    "Area": 2166090
+  },
+  {
+    "CodCountry": "gd",
+    "Name": "Grenada",
+    "Population": 112003,
+    "Area": 344
+  },
+  {
+    "CodCountry": "gp",
+    "Name": "Guadeloupe",
+    "Population": 395700,
+    "Area": 1628
+  },
+  {
+    "CodCountry": "gt",
+    "Name": "Guatemala",
+    "Population": 16604026,
+    "Area": 108889
+  },
+  {
+    "CodCountry": "ht",
+    "Name": "Haiti",
+    "Population": 11577779,
+    "Area": 27750
+  },
+  {
+    "CodCountry": "hn",
+    "Name": "Honduras",
+    "Population": 9158345,
+    "Area": 112492
+  },
+  {
+    "CodCountry": "jm",
+    "Name": "Jamaica",
+    "Population": 2726667,
+    "Area": 10991
+  },
+  {
+    "CodCountry": "mq",
+    "Name": "Martinique",
+    "Population": 376480,
+    "Area": 1128
+  },
+  {
+    "CodCountry": "mx",
+    "Name": "Mexico",
+    "Population": 126577691,
+    "Area": 1964380
+  },
+  {
+    "CodCountry": "ms",
+    "Name": "Montserrat",
+    "Population": 4989,
+    "Area": 102
+  },
+  {
+    "CodCountry": "ni",
+    "Name": "Nicaragua",
+    "Population": 6460411,
+    "Area": 130373
+  },
+  {
+    "CodCountry": "pa",
+    "Name": "Panama",
+    "Population": 4218808,
+    "Area": 75417
+  },
+  {
+    "CodCountry": "pr",
+    "Name": "Puerto Rico",
+    "Population": 3193694,
+    "Area": 8870
+  },
+  {
+    "CodCountry": "bl",
+    "Name": "Saint Barthélemy",
+    "Population": 9793,
+    "Area": 21
+  },
+  {
+    "CodCountry": "kn",
+    "Name": "Saint Kitts and Nevis",
+    "Population": 52823,
+    "Area": 261
+  },
+  {
+    "CodCountry": "lc",
+    "Name": "Saint Lucia",
+    "Population": 178696,
+    "Area": 616
+  },
+  {
+    "CodCountry": "mf",
+    "Name": "Saint Martin",
+    "Population": 35107,
+    "Area": 53
+  },
+  {
+    "CodCountry": "pm",
+    "Name": "Saint Pierre and Miquelon",
+    "Population": 6008,
+    "Area": 242
+  },
+  {
+    "CodCountry": "vc",
+    "Name": "Saint Vincent and the Grenadines",
+    "Population": 110608,
+    "Area": 389
+  },
+  {
+    "CodCountry": "sx",
+    "Name": "Sint Maarten",
+    "Population": 40614,
+    "Area": 34
+  },
+  {
+    "CodCountry": "tc",
+    "Name": "Turks and Caicos Islands",
+    "Population": 41369,
+    "Area": 948
+  },
+  {
+    "CodCountry": "us",
+    "Name": "United States",
+    "Population": 329345637,
+    "Area": 9833520
+  },
+  {
+    "CodCountry": "um",
+    "Name": "United States Minor Outlying Islands",
+    "Population": 300,
+    "Area": 34
+  },
+  {
+    "CodCountry": "vg",
+    "Name": "British Virgin Islands",
+    "Population": 30030,
+    "Area": 151
+  },
+  {
+    "CodCountry": "vi",
+    "Name": "United States Virgin Islands",
+    "Population": 104578,
+    "Area": 347
+  }
+]
