@@ -35,17 +35,7 @@ namespace FlagsGame.GUI.View.Views
         private void saveChanges()
         {
             _session.Mode = (bool)optionCountries.IsChecked ? GameMode.COUNTRIES : GameMode.FLAGS;
-            _session.Language = cbLanguage.SelectedIndex == 0 ? new CultureInfo("en-US") : new CultureInfo("es-ES");
-            
-            var language = _session.Language.Name=="es-ES" ?
-                Application.Current.Resources.MergedDictionaries[1]:
-                Application.Current.Resources.MergedDictionaries[0];
-
-            Application.Current.Resources.MergedDictionaries.Add(language);
-            if (!CultureInfo.CurrentCulture.Name.Equals(_session.Language))
-            {
-                Thread.CurrentThread.CurrentCulture = _session.Language;
-            }
+            _session.Language = cbLanguage.SelectedIndex == 0 ? new CultureInfo("en-US") : new CultureInfo("es-ES");            
         }
 
         private void btnReset(object sender, RoutedEventArgs e)
@@ -62,5 +52,19 @@ namespace FlagsGame.GUI.View.Views
             cbLanguage.SelectedIndex = _session.Language.Name == "en-US" ? 0 : 1;
         }
 
+        private void cbLanguage_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            _session.Language = cbLanguage.SelectedIndex == 0 ? new CultureInfo("en-US") : new CultureInfo("es-ES");
+
+            var language = _session.Language.Name == "es-ES" ?
+                Application.Current.Resources.MergedDictionaries[1] :
+                Application.Current.Resources.MergedDictionaries[0];
+
+            Application.Current.Resources.MergedDictionaries.Add(language);
+            if (!CultureInfo.CurrentCulture.Name.Equals(_session.Language))
+            {
+                Thread.CurrentThread.CurrentCulture = _session.Language;
+            }
+        }
     }
 }

@@ -15,14 +15,14 @@
         <RadioButton Content="{DynamicResource countries}" HorizontalAlignment="Left" Height="21" Margin="10,107,0,0" VerticalAlignment="Top" Width="95" GroupName="modeGame" Name="optionCountries" RenderTransformOrigin="0.5,0.5"/>
 
 
-        <Button Content="{DynamicResource reset_scores}" HorizontalAlignment="Left" Height="31" Margin="10,150,0,0" VerticalAlignment="Top" Width="83" Click="btnReset" Background="#FFE05353" Foreground="#FFEEE8E8"/>
-        <ComboBox Name="cbLanguage"  HorizontalAlignment="Left" Height="28" Margin="160,92,0,0" VerticalAlignment="Top" Width="124">
+        <Button Content="{DynamicResource reset_scores}" HorizontalAlignment="Left" Height="31" Margin="10,150,0,0" VerticalAlignment="Top" Width="95" Click="btnReset" Background="#FFE05353" Foreground="#FFEEE8E8"/>
+        <ComboBox Name="cbLanguage"  HorizontalAlignment="Left" Height="28" Margin="160,92,0,0" VerticalAlignment="Top" Width="124" SelectionChanged="cbLanguage_SelectionChanged">
             <ComboBoxItem Name="cbEn" Content="{DynamicResource english}" ></ComboBoxItem>
             <ComboBoxItem Name="cbEs" Content="{DynamicResource spanish}"></ComboBoxItem>
         </ComboBox>
         <Label Content="{DynamicResource settings}" HorizontalAlignment="Left" Height="41" Margin="3,1,0,0" VerticalAlignment="Top" Width="165" FontSize="20" FontFamily="MV Boli"/>
         <Label Content="{DynamicResource mode_game}" HorizontalAlignment="Left" Height="39" Margin="10,47,0,0" VerticalAlignment="Top" Width="130" FontSize="14"/>
-        <Label Content="{DynamicResource select_language}" HorizontalAlignment="Left" Height="40" Margin="174,49,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="{DynamicResource select_language}" HorizontalAlignment="Left" Height="40" Margin="160,49,0,0" VerticalAlignment="Top" Width="124"/>
         <Button Content="{DynamicResource accept}" HorizontalAlignment="Left" Margin="86,246,0,0" VerticalAlignment="Top" Height="33" Width="106" Name="btnAccept" Click="btnAccept_Click" Background="#FF0C70C3"/>
     </Grid>
 </UserControl>

@@ -34,4 +34,7 @@
     <system:String x:Key="competititon">Campeonato</system:String>
     <system:String x:Key="trainning">Entrenamiento</system:String>
     <system:String x:Key="date_time">Fecha / Hora</system:String>
+    <system:String x:Key="filter">Filtrar</system:String>
+    <system:String x:Key="abstract">Juego creado para el curso de la UNED.</system:String>
+    <system:String x:Key="author">Miguel Fernández Moreno</system:String>
 </ResourceDictionary>

@@ -16,7 +16,7 @@
         <Label x:Name="lblWrong" Content="0" HorizontalAlignment="Left" Margin="178,9,0,0" VerticalAlignment="Top" Background="#FFD82D06" FontWeight="Bold" Foreground="#FFD6C9C9" FontSize="14"/>
         <Label Content="{DynamicResource correct}" HorizontalAlignment="Left" Margin="26,9,0,0" VerticalAlignment="Top"/>
         <Label Content="{DynamicResource wrong}" HorizontalAlignment="Left" Margin="124,12,0,0" VerticalAlignment="Top"/>
-        <Label Content="0" Name="lblTime" HorizontalAlignment="Left" Height="29" Margin="206,9,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label Content="0" Name="lblTime" HorizontalAlignment="Left" Height="29" Margin="277,9,0,0" VerticalAlignment="Top" Width="48"/>
         <Label Content="{DynamicResource time}" HorizontalAlignment="Left" Height="23" Margin="213,12,0,0" VerticalAlignment="Top" Width="52"/>
         <Border Height="100"  Width="200" Margin="238,73,264,148" BorderThickness="1" BorderBrush="Black">
             <Image Name="imgFlag" Stretch="Fill"/>

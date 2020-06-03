@@ -34,4 +34,7 @@
     <system:String x:Key="competititon">Competititon</system:String>
     <system:String x:Key="trainning">Trainning</system:String>
     <system:String x:Key="date_time">Date / Time</system:String>
+    <system:String x:Key="filter">Filter</system:String>
+    <system:String x:Key="abstract">Game created for UNED course..</system:String>
+    <system:String x:Key="author">Miguel Fernández Moreno</system:String>
 </wpf:ResourceDictionary>
