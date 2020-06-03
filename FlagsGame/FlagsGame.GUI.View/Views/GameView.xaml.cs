@@ -6,7 +6,6 @@ using System;
 using System.Collections.Generic;
 using FlagsGame.Core;
 using System.Windows;
-using System.Reflection;
 using System.Linq;
 
 namespace FlagsGame.GUI.View.Views

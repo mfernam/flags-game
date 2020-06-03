@@ -1,5 +1,6 @@
 ﻿using FlagsGame.Core;
 using FlagsGame.Core.Model;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
@@ -13,7 +14,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class ResultsView : UserControl
     {
         private Session _session = null;
-        private string PATHRESULTS = @"C:\projects\flags-game\FlagsGame\FlagsGame.GUI.View\Resources\Data\results.json";
+        private string PATHRESULTS = AppDomain.CurrentDomain.BaseDirectory + @"Resources\Data\results.json";
         public event ShowOptionDelegate showOption;
         public ResultsView(Session session)
         {

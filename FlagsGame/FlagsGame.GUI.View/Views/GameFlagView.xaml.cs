@@ -20,7 +20,7 @@ namespace FlagsGame.GUI.View.Views
         Result _result = null;
         DispatcherTimer _stopWatch = null;
         FinishGameView _finishGameView = null;
-        string LOCATION_IMG = @"C:\projects\flags-game\FlagsGame\FlagsGame.GUI.View\Resources\Images\{0}.png";
+        string LOCATION_IMG = AppDomain.CurrentDomain.BaseDirectory + @"Resources\Images\{0}.png";
 
         public event ShowOptionDelegate showOption;
         public GameFlagView(Session session)

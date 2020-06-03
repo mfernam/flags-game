@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FlagsGame.Core;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -18,9 +19,16 @@ namespace FlagsGame.GUI.View.Views
     /// </summary>
     public partial class AboutView : UserControl
     {
+        public event ShowOptionDelegate showOption;
         public AboutView()
         {
             InitializeComponent();
+        }
+        public delegate void ShowOptionDelegate(UserControl viewControl);
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            showOption(new OptionsView(Session.Instance));
         }
     }
 }

@@ -28,7 +28,7 @@ namespace FlagsGame.GUI.View
             _optionsView = new OptionsView(_session);
             _finishGameView = new FinishGameView(_session);
             _selectionGameView = new SelectionGameView(_session);
-
+            
             _selectionGameView.showOption += ShowOption;
             _finishGameView.showOption += ShowOption;
             _optionsView.showOption += ShowOption;
@@ -58,6 +58,7 @@ namespace FlagsGame.GUI.View
             if (_viewControl.GetType() == typeof(AboutView))
             {
                 _aboutView = (AboutView)_viewControl;
+                _aboutView.showOption += ShowOption;
                 _contentControl.Children.Add(_aboutView);
             }
             if (_viewControl.GetType() == typeof(ResultsView))

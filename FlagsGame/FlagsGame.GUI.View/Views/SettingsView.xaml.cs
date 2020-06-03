@@ -15,7 +15,7 @@ namespace FlagsGame.GUI.View.Views
     public partial class SettingsView : UserControl
     {
         Session _session = null;
-        private string PATHRESULTS = @"C:\projects\flags-game\FlagsGame\FlagsGame.GUI.View\Resources\Data\results.json";
+        private string PATHRESULTS = AppDomain.CurrentDomain.BaseDirectory + @"Resources\Data\results.json";
 
         public event ShowOptionDelegate showOption;
         public SettingsView(Session session)
@@ -50,16 +50,16 @@ namespace FlagsGame.GUI.View.Views
 
         private void btnReset(object sender, RoutedEventArgs e)
         {
+            _session.ResultsList.Clear();
             var jsonResults = JsonSerializer.Serialize(_session.ResultsList);
             File.WriteAllText(PATHRESULTS, jsonResults);
-            _session.ResultsList.Clear();
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             optionFlags.IsChecked = _session.Mode == GameMode.FLAGS;
             optionCountries.IsChecked = _session.Mode == GameMode.COUNTRIES;
-            cbLanguage.SelectedIndex = _session.Language == CultureInfo.GetCultureInfo("en-US") ? 0 : 1;
+            cbLanguage.SelectedIndex = _session.Language.Name == "en-US" ? 0 : 1;
         }
 
     }
