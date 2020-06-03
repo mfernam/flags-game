@@ -52,7 +52,9 @@ namespace FlagsGame.GUI.View.Views
             selectedCountries = _session.CountryList.OrderBy(x => random.Next()).Take(4).ToList();
             int index = 1;
             Country question = (Country)selectedCountries.OrderBy(x => random.Next()).Take(1).FirstOrDefault();
-            imgFlag.Source = new BitmapImage(new Uri(String.Format(LOCATION_IMG, question.CodCountry))); ;
+            imgFlag.Source = new BitmapImage(new Uri(String.Format(LOCATION_IMG, question.CodCountry)));
+
+            _session.CountryList.Remove(question);
 
             lblAnswer = new Label();
             lblAnswer.Name = question.CodCountry;

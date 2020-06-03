@@ -9,10 +9,9 @@
         <Button Content="{DynamicResource africa}" HorizontalAlignment="Left" Margin="108,97,0,0" Name="africa" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click" />
         <Button Content="{DynamicResource asia}" HorizontalAlignment="Left" Margin="108,165,0,0" Name="asia" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
         <Button Content="{DynamicResource europe}" HorizontalAlignment="Left" Margin="199,97,0,0" Name="europe" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
-        <Button Content="{DynamicResource north_america}" HorizontalAlignment="Left" Margin="292,165,0,0" Name="north_america" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
-        <Button Content="{DynamicResource south_america}" HorizontalAlignment="Left" Margin="292,97,0,0" Name="south_america" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
+        <Button Content="{DynamicResource america}" HorizontalAlignment="Left" Margin="292,97,0,0" Name="america" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
         <Button Content="{DynamicResource oceania}" HorizontalAlignment="Left" Margin="199,165,0,0" Name="oceania" VerticalAlignment="Top" Height="37" Width="90" Click="btnContinent_Click"/>
-        <Button Content="{DynamicResource all}" HorizontalAlignment="Left" Margin="395,165,0,0" Name="btnAll" VerticalAlignment="Top" Height="37" Width="90" Click="btnAll_Click"/>
+        <Button Content="{DynamicResource all}" HorizontalAlignment="Left" Margin="294,165,0,0" Name="btnAll" VerticalAlignment="Top" Height="37" Width="90" Click="btnAll_Click"/>
         <Button Content="{DynamicResource back}" HorizontalAlignment="Left" Height="31" Margin="441,256,0,0" VerticalAlignment="Top" Width="44" Name="btnBack" Click="btnBack_Click"/>
 
 

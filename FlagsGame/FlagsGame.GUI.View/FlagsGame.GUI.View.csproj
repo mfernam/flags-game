@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Remove="Resources\Data\africa.json" />
+    <None Remove="Resources\Data\america.json" />
     <None Remove="Resources\Data\asia.json" />
     <None Remove="Resources\Data\europe.json" />
     <None Remove="Resources\Data\north_america.json" />
@@ -279,6 +280,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Data\europe.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Data\america.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Data\north_america.json">

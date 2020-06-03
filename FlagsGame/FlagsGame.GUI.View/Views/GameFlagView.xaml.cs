@@ -49,6 +49,8 @@ namespace FlagsGame.GUI.View.Views
             selectedCountries = _session.CountryList.OrderBy(x=>random.Next()).Take(4).ToList();
             int index = 1;
             Country question = (Country)selectedCountries.OrderBy(x => random.Next()).Take(1).FirstOrDefault();
+
+            _session.CountryList.Remove(question);
             lblCountry.Content = question.Name;
             lblAnswer = new Label();
             lblAnswer.Name = question.CodCountry;

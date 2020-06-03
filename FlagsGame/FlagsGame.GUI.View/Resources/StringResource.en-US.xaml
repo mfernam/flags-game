@@ -23,8 +23,7 @@
     <system:String x:Key="africa">Africa</system:String>
     <system:String x:Key="asia">Asia</system:String>
     <system:String x:Key="europe">Europe</system:String>
-    <system:String x:Key="north_america">North America</system:String>
-    <system:String x:Key="south_america">South America</system:String>
+    <system:String x:Key="america"> America</system:String>
     <system:String x:Key="oceania">Oceania</system:String>
     <system:String x:Key="all">All</system:String>
     <system:String x:Key="game_finish">Finish game</system:String> 

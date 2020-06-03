@@ -17,8 +17,8 @@ namespace FlagsGame.GUI.View.Views
     {
         Session _session = null;
         GameFlagView _gamePlayView = null;
-        static string LOCATION = @"Resources\Data\{0}.json";
-        string[] continentList = { "africa","asia","europe","north_america","south_america","oceania"};
+        static string LOCATION = AppDomain.CurrentDomain.BaseDirectory + @"Resources\Data\{0}.json";
+        string[] continentList = { "africa","asia","europe","america","oceania"};
 
         public event ShowOptionDelegate showOption;
         public GameView(Session session)
@@ -71,12 +71,7 @@ namespace FlagsGame.GUI.View.Views
 
         string CapitalizeContinent(string name)
         {
-            string nameCapitalized = string.Empty;
-            var nameComplex = name.Split('_');
-            nameCapitalized = nameComplex.Count() > 1 ?
-                string.Format("{0} {1}", 
-                    nameComplex[0].Substring(0, 1).ToUpper()+ nameComplex[0].Substring(1), nameComplex[1].Substring(0,1).ToUpper())+ nameComplex[1].Substring(1) :
-                name.Substring(0, 1).ToUpper()+ name.Substring(1);
+            string nameCapitalized = name.Substring(0, 1).ToUpper() + name.Substring(1);
             return nameCapitalized;
         }
 
@@ -86,7 +81,7 @@ namespace FlagsGame.GUI.View.Views
             return JsonSerializer.Deserialize<List<Country>>(jsonString);
         }
 
-        private void btnBack_Click(object sender, System.Windows.RoutedEventArgs e)
+        private void btnBack_Click(object sender, RoutedEventArgs e)
         {
             showOption(new OptionsView(_session));
         }
