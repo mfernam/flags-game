@@ -7,7 +7,7 @@
              xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              mc:Ignorable="d" Loaded="UserControl_Loaded" Height="347" Width="600">
     <Grid>
-        <DataGrid Name="dgResults" IsReadOnly="True" AutoGenerateColumns="False" Height="240" VerticalAlignment="Top" BorderThickness="0,0,0,0" SelectionChanged="dgResults_SelectionChanged">
+        <DataGrid Name="dgResults" IsReadOnly="True" AutoGenerateColumns="False" Height="240" VerticalAlignment="Top" BorderThickness="0,0,0,0" SelectionChanged="dgResults_SelectionChanged" FontSize="14">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Name}" Header="{DynamicResource name}"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding CorrectAnswers}" Header="{DynamicResource correct}"></DataGridTextColumn>
@@ -17,20 +17,21 @@
                 <DataGridTextColumn Binding="{Binding DateGame, StringFormat='dd-MM-yyyy HH:mm:ss'}" Header="{DynamicResource date_time}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="{DynamicResource back}" HorizontalAlignment="Left" Height="30" Margin="515,296,0,0" VerticalAlignment="Top" Width="52" Name="btnBack" Click="btnBack_Click"/>
+        <Button Content="{DynamicResource back}" HorizontalAlignment="Left" Height="50" Margin="478,281,0,0" VerticalAlignment="Top" Width="100" Name="btnBack" Click="btnBack_Click" Background="#FFECD858" FontSize="14" FontWeight="Bold"/>
 
-        <toolkit:Label Content="{DynamicResource filter}" HorizontalAlignment="Left" Height="23" Margin="10,247,0,0" VerticalAlignment="Top" Width="120"/>
-        <toolkit:TextBox HorizontalAlignment="Left" Margin="84,287,0,0" Name="txtPlayer" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtField_TextChanged"/>
-        <toolkit:TextBox HorizontalAlignment="Left" Margin="84,321,0,0" Name="txtTime" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtField_TextChanged"/>
-        <toolkit:ComboBox HorizontalAlignment="Left" Margin="237,289,0,0" VerticalAlignment="Top" Width="120" Name="cbContinent" SelectionChanged="cbContinent_SelectionChanged">
+        <toolkit:Label Content="{DynamicResource filter}" HorizontalAlignment="Left" Height="30" Margin="10,247,0,0" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <toolkit:TextBox HorizontalAlignment="Left" Margin="84,287,0,0" Name="txtPlayer" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtField_TextChanged" FontSize="14"/>
+        <toolkit:TextBox HorizontalAlignment="Left" Margin="84,321,0,0" Name="txtTime" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtField_TextChanged" FontSize="14"/>
+        <toolkit:ComboBox HorizontalAlignment="Left" Margin="237,289,0,0" VerticalAlignment="Top" Width="120" Name="cbContinent" SelectionChanged="cbContinent_SelectionChanged" FontSize="14">
             <ComboBoxItem Name="empty" Content=""/>
             <ComboBoxItem Name="africa" Content="{DynamicResource africa}"/>
             <ComboBoxItem Name="america" Content="{DynamicResource america}"/>
             <ComboBoxItem Name="asia" Content="{DynamicResource asia}"/>
             <ComboBoxItem Name="europe" Content="{DynamicResource europe}"/>
             <ComboBoxItem Name="oceania" Content="{DynamicResource oceania}"/>
+            <ComboBoxItem Name="all" Content="{DynamicResource all}"/>
         </toolkit:ComboBox>
-        <toolkit:Label Content="{DynamicResource name}" HorizontalAlignment="Left" Margin="10,282,0,0" VerticalAlignment="Top"/>
-        <toolkit:Label Content="{DynamicResource time}" HorizontalAlignment="Left" Margin="10,314,0,0" VerticalAlignment="Top"/>
+        <toolkit:Label Content="{DynamicResource name}" HorizontalAlignment="Left" Margin="10,282,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <toolkit:Label Content="{DynamicResource time}" HorizontalAlignment="Left" Margin="10,314,0,0" VerticalAlignment="Top" FontSize="14"/>
     </Grid>
 </UserControl>

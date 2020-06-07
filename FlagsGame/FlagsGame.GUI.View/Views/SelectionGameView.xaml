@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FlagsGame.GUI.View.Views"
         mc:Ignorable="d"
-        Title="SelectionGameView" Height="203" Width="273" WindowStartupLocation="CenterScreen">
+        Title="SelectionGameView" Height="250" Width="350" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button Content="{DynamicResource competititon}" HorizontalAlignment="Left" Margin="30,102,0,0" VerticalAlignment="Top" Width="90" Height="50" Name="competition" Click="GameSelection_Click" Background="#FF129AB8"/>
-        <Button Content="{DynamicResource trainning}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="156,102,0,0" Width="90" Height="50" Name="trainning" Click="GameSelection_Click" Background="#FFCDC407"/>
-        <Label Content="{DynamicResource select_game}" HorizontalAlignment="Left" Margin="30,26,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Content="{DynamicResource competititon}" HorizontalAlignment="Left" Margin="20,102,0,0" VerticalAlignment="Top" Width="150" Height="70" Name="competition" Click="GameSelection_Click" Background="#FF129AB8" FontWeight="Bold" FontSize="16"/>
+        <Button Content="{DynamicResource trainning}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="175,102,0,0" Width="150" Height="70" Name="trainning" Click="GameSelection_Click" Background="#FFCDC407" FontWeight="Bold" FontSize="16"/>
+        <Label Content="{DynamicResource select_game}" HorizontalAlignment="Left" Margin="30,26,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
 
     </Grid>
 </Window>

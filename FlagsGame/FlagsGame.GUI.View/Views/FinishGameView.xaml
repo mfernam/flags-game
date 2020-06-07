@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FlagsGame.GUI.View.Views"
         mc:Ignorable="d"
-        Title="{DynamicResource game_finish}" Height="198" Width="234" Loaded="Window_Loaded" Background="#FF35D1EA" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="{DynamicResource game_finish}" Height="198" Width="234" Loaded="Window_Loaded" Background="#FF9BE4F0" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="{DynamicResource game_finish}" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="172" FontSize="20" FontWeight="Bold"/>
-        <Button Content="{DynamicResource accept}" HorizontalAlignment="Left" Height="35" Margin="67,117,0,0" VerticalAlignment="Top" Width="77" Name="btnAccept" Click="btnAccept_Click" Background="#FF0969A0"/>
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="104,60,0,0" Text="Player name" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" Name="txtName"/>
-        <Label Content="{DynamicResource name}" HorizontalAlignment="Left" Height="30" Margin="39,60,0,0" VerticalAlignment="Top" Width="47" Name="lblName"/>
+        <Button Content="{DynamicResource accept}" HorizontalAlignment="Left" Height="50" Margin="67,117,0,0" VerticalAlignment="Top" Width="100" Name="btnAccept" Click="btnAccept_Click" Background="#FF52B2EA"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="104,60,0,0" Text="Player name" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" Name="txtName" FontWeight="Bold" FontSize="16"/>
+        <Label Content="{DynamicResource name}" HorizontalAlignment="Left" Height="30" Margin="18,60,0,0" VerticalAlignment="Top" Width="68" Name="lblName" FontSize="16"/>
 
     </Grid>
 </Window>

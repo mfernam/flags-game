@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using System.Windows;
 using System.Windows.Threading;
+using System.Windows.Media;
 
 namespace FlagsGame.GUI.View.Views
 {

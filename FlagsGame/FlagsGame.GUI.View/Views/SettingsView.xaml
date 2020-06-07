@@ -5,24 +5,24 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FlagsGame.GUI.View.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
-    <Grid HorizontalAlignment="Left" Width="290" Margin="10,0,0,0">
+             d:DesignHeight="300" d:DesignWidth="400" Loaded="UserControl_Loaded">
+    <Grid Height="300" Margin="0,0,-10,0" HorizontalAlignment="Right" Width="400">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <RadioButton Content="{DynamicResource flags}" HorizontalAlignment="Left" Height="15" Margin="10,87,0,0" VerticalAlignment="Top" Width="110" GroupName="modeGame" Name="optionFlags" IsChecked="True"/>
-        <RadioButton Content="{DynamicResource countries}" HorizontalAlignment="Left" Height="21" Margin="10,107,0,0" VerticalAlignment="Top" Width="95" GroupName="modeGame" Name="optionCountries" RenderTransformOrigin="0.5,0.5"/>
+        <RadioButton Content="{DynamicResource flags}" HorizontalAlignment="Left" Height="15" Margin="20,90,0,0" VerticalAlignment="Top" Width="110" GroupName="modeGame" Name="optionFlags" IsChecked="True" FontSize="14"/>
+        <RadioButton Content="{DynamicResource countries}" HorizontalAlignment="Left" Height="21" Margin="20,110,0,0" VerticalAlignment="Top" Width="95" GroupName="modeGame" Name="optionCountries" RenderTransformOrigin="0.5,0.5" FontSize="14"/>
 
 
-        <Button Content="{DynamicResource reset_scores}" HorizontalAlignment="Left" Height="31" Margin="10,150,0,0" VerticalAlignment="Top" Width="95" Click="btnReset" Background="#FFE05353" Foreground="#FFEEE8E8"/>
-        <ComboBox Name="cbLanguage"  HorizontalAlignment="Left" Height="28" Margin="160,92,0,0" VerticalAlignment="Top" Width="124" SelectionChanged="cbLanguage_SelectionChanged">
+        <Button Content="{DynamicResource reset_scores}" HorizontalAlignment="Left" Height="50" Margin="20,153,0,0" VerticalAlignment="Top" Width="95" Click="btnReset" Background="#FFE05353" Foreground="#FFEEE8E8"/>
+        <ComboBox Name="cbLanguage"  HorizontalAlignment="Left" Height="28" Margin="219,95,0,0" VerticalAlignment="Top" Width="124" SelectionChanged="cbLanguage_SelectionChanged">
             <ComboBoxItem Name="cbEn" Content="{DynamicResource english}" ></ComboBoxItem>
             <ComboBoxItem Name="cbEs" Content="{DynamicResource spanish}"></ComboBoxItem>
         </ComboBox>
         <Label Content="{DynamicResource settings}" HorizontalAlignment="Left" Height="41" Margin="3,1,0,0" VerticalAlignment="Top" Width="165" FontSize="20" FontFamily="MV Boli"/>
-        <Label Content="{DynamicResource mode_game}" HorizontalAlignment="Left" Height="39" Margin="10,47,0,0" VerticalAlignment="Top" Width="130" FontSize="14"/>
-        <Label Content="{DynamicResource select_language}" HorizontalAlignment="Left" Height="40" Margin="160,49,0,0" VerticalAlignment="Top" Width="124"/>
-        <Button Content="{DynamicResource accept}" HorizontalAlignment="Left" Margin="86,246,0,0" VerticalAlignment="Top" Height="33" Width="106" Name="btnAccept" Click="btnAccept_Click" Background="#FF0C70C3"/>
+        <Label Content="{DynamicResource mode_game}" HorizontalAlignment="Left" Height="39" Margin="20,50,0,0" VerticalAlignment="Top" Width="130" FontSize="16"/>
+        <Label Content="{DynamicResource select_language}" HorizontalAlignment="Left" Height="40" Margin="219,52,0,0" VerticalAlignment="Top" Width="124" FontSize="16"/>
+        <Button Content="{DynamicResource accept}" HorizontalAlignment="Center" Margin="0,207,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btnAccept" Click="btnAccept_Click" Background="#FF0C70C3" FontWeight="Bold" FontSize="16"/>
     </Grid>
 </UserControl>
