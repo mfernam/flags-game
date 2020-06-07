@@ -18,8 +18,8 @@
         <Button HorizontalAlignment="Left" Margin="476,150,0,0" VerticalAlignment="Top" Height="100" Width="150" Name="btn4" Click="btn_Click" Background="{x:Null}">
             <Image Name="img4" Width="150" Height="100" Stretch="Fill"/>
         </Button>
-        <Label  HorizontalAlignment="Left" Height="33" Margin="89,87,0,0" VerticalAlignment="Top" Width="329" Name="lblCountry" FontSize="16"/>
-        <Button Name="btnBack" Content="{DynamicResource back}" HorizontalAlignment="Left" Margin="548,303,0,0" VerticalAlignment="Top" Click="btnBack_Click" FontWeight="Bold" FontSize="16" Background="#FFE2D68A"/>
+        <Label  HorizontalAlignment="Left" Height="33" Margin="89,87,0,0" VerticalAlignment="Top" Width="396" Name="lblCountry" FontSize="16"/>
+        <Button Name="btnBack" Content="{DynamicResource back}" HorizontalAlignment="Left" Margin="548,303,0,0" VerticalAlignment="Top" Click="btnBack_Click" FontWeight="Bold" FontSize="16" Background="#FFE2D68A" Width="60"/>
         <Label Name="lblCorrect" Content="0" HorizontalAlignment="Left" Margin="93,9,0,0" VerticalAlignment="Top" Background="#FF327A01" Foreground="#FFEEE6E6" FontWeight="Bold" FontSize="16"/>
         <Label x:Name="lblWrong" Content="0" HorizontalAlignment="Left" Margin="178,9,0,0" VerticalAlignment="Top" Background="#FFD82D06" FontWeight="Bold" Foreground="#FFD6C9C9" FontSize="16"/>
         <Label Content="{DynamicResource correct}" HorizontalAlignment="Left" Margin="21,9,0,0" VerticalAlignment="Top" FontSize="16"/>

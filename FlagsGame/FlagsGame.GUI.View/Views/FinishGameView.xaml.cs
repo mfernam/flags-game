@@ -52,5 +52,10 @@ namespace FlagsGame.GUI.View.Views
                 lblName.Visibility = Visibility.Hidden;
             }
         }
+
+        private void txtName_GotFocus(object sender, RoutedEventArgs e)
+        {
+            txtName.Text = string.Empty;
+        }
     }
 }

@@ -6,18 +6,18 @@
              xmlns:local="clr-namespace:FlagsGame.GUI.View.Views"
              mc:Ignorable="d" Name="gameArea" Loaded="gameArea_Loaded" Height="331" Width="702">
     <Grid Margin="0,0,0,10">
-        <Button HorizontalAlignment="Left" Margin="101,193,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btn1" Click="btn_Click" Background="#FF88D5EC" FontSize="16" FontWeight="Bold"/>
-        <Button HorizontalAlignment="Left" Margin="214,193,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btn2" Click="btn_Click" Background="#FF88D5EC" FontSize="16" FontWeight="Bold"/>
-        <Button HorizontalAlignment="Left" Margin="338,193,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btn3" Click="btn_Click" Background="#FF88D5EC" FontSize="16" FontWeight="Bold"/>
-        <Button HorizontalAlignment="Left" Margin="457,193,0,0" VerticalAlignment="Top" Height="50" Width="100" Name="btn4" Click="btn_Click" Background="#FF88D5EC" FontSize="16" FontWeight="Bold"/>
+        <Button HorizontalAlignment="Left" Margin="101,193,0,0" VerticalAlignment="Top" Height="60" Width="110" Name="btn1" Click="btn_Click" Background="#FF88D5EC" FontSize="16" FontWeight="Bold"/>
+        <Button HorizontalAlignment="Left" Margin="220,193,0,0" VerticalAlignment="Top" Height="60" Width="110" Name="btn2" Click="btn_Click" Background="#FF88D5EC" FontSize="16" FontWeight="Bold"/>
+        <Button HorizontalAlignment="Left" Margin="338,193,0,0" VerticalAlignment="Top" Height="60" Width="110" Name="btn3" Click="btn_Click" Background="#FF88D5EC" FontSize="16" FontWeight="Bold"/>
+        <Button HorizontalAlignment="Left" Margin="456,193,0,0" VerticalAlignment="Top" Height="60" Width="110" Name="btn4" Click="btn_Click" Background="#FF88D5EC" FontSize="16" FontWeight="Bold"/>
 
         <Button Name="btnBack" Content="{DynamicResource back}" HorizontalAlignment="Left" Margin="591,273,0,0" VerticalAlignment="Top" Click="btnBack_Click" FontWeight="Bold" FontSize="16" Background="#FFE2D68A"/>
         <Label Name="lblCorrect" Content="0" HorizontalAlignment="Left" Margin="93,9,0,0" VerticalAlignment="Top" Background="#FF327A01" Foreground="#FFEEE6E6" FontWeight="Bold" FontSize="16"/>
         <Label x:Name="lblWrong" Content="0" HorizontalAlignment="Left" Margin="178,9,0,0" VerticalAlignment="Top" Background="#FFD82D06" FontWeight="Bold" Foreground="#FFD6C9C9" FontSize="16"/>
         <Label Content="{DynamicResource correct}" HorizontalAlignment="Left" Margin="21,9,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Label Content="{DynamicResource wrong}" HorizontalAlignment="Left" Margin="124,8,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="{DynamicResource wrong}" HorizontalAlignment="Left" Margin="124,9,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="0" Name="lblTime" HorizontalAlignment="Left" Height="29" Margin="286,9,0,0" VerticalAlignment="Top" Width="48" FontWeight="Bold" FontSize="16"/>
-        <Label Content="{DynamicResource time}" HorizontalAlignment="Left" Height="28" Margin="213,12,0,0" VerticalAlignment="Top" Width="68" FontSize="16"/>
+        <Label Content="{DynamicResource time}" HorizontalAlignment="Left" Height="28" Margin="213,9,0,0" VerticalAlignment="Top" Width="68" FontSize="16"/>
         <Border Height="100"  Width="200" Margin="238,73,264,148" BorderThickness="1" BorderBrush="Black">
             <Image Name="imgFlag" Stretch="Fill"/>
 
