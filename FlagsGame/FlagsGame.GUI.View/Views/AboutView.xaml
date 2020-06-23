@@ -7,9 +7,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="350" d:DesignWidth="400">
     <Grid>
-        <Button Content="{DynamicResource back}" Name="btnBack" HorizontalAlignment="Left" Margin="275,275,0,0" VerticalAlignment="Top" Click="btnBack_Click" RenderTransformOrigin="-0.392,-0.944"/>
-        <Label Content="{DynamicResource abstract}" HorizontalAlignment="Left" Height="69" Margin="51,58,0,0" VerticalAlignment="Top" Width="286"/>
-        <Label Content="{DynamicResource author}" Height="52" Width="286" Margin="51,123,63,175"/>
+        <Button Content="{DynamicResource back}" Name="btnBack" HorizontalAlignment="Left" Margin="275,275,0,0" VerticalAlignment="Top" Click="btnBack_Click" RenderTransformOrigin="-0.392,-0.944" Width="100" Height="50" Background="#FFD4E084" FontWeight="Bold" FontSize="16"/>
+        <Label Content="{DynamicResource abstract}" HorizontalAlignment="Left" Height="40" Margin="51,58,0,0" VerticalAlignment="Top" Width="286" FontSize="16"/>
+        <Label Content="{DynamicResource author}" Height="52" Width="286" Margin="51,98,63,200" FontSize="16"/>
+        <GroupBox Header="" Margin="37,36,51,200"/>
+        <Button Content="{DynamicResource document}" HorizontalAlignment="Left" Height="40" Margin="51,175,0,0" VerticalAlignment="Top" Width="251" Background="#FF53A6CD" FontWeight="Bold" FontSize="16" Name="btnDocument" Click="btnDocument_Click"/>
 
 
     </Grid>

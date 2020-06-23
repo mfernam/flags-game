@@ -37,4 +37,5 @@
     <system:String x:Key="filter">Filtrar</system:String>
     <system:String x:Key="abstract">Juego creado para el curso de la UNED.</system:String>
     <system:String x:Key="author">Miguel Fernández Moreno</system:String>
+    <system:String x:Key="document">Documento</system:String>
 </ResourceDictionary>

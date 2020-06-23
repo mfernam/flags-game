@@ -1,16 +1,8 @@
 ﻿using FlagsGame.Core;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace FlagsGame.GUI.View.Views
 {
@@ -19,6 +11,7 @@ namespace FlagsGame.GUI.View.Views
     /// </summary>
     public partial class AboutView : UserControl
     {
+        string LOCATION_PDF = AppDomain.CurrentDomain.BaseDirectory + @"Resources\instructions.pdf";
         public event ShowOptionDelegate showOption;
         public AboutView()
         {
@@ -29,6 +22,14 @@ namespace FlagsGame.GUI.View.Views
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
             showOption(new OptionsView(Session.Instance));
+        }
+
+        private void btnDocument_Click(object sender, RoutedEventArgs e)
+        {
+            //new FileStream(LOCATION_PDF, FileMode.Open, FileAccess.Read);
+            var browser = new WebBrowser();
+            browser.Navigate(LOCATION_PDF);
+
         }
     }
 }
